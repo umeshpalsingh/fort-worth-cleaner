@@ -229,8 +229,6 @@ a {
 }
 
 
-
-
 .gallery-section {
     padding: 50px 0 0;
 }
@@ -344,4 +342,31 @@ a {
     cursor: pointer;
     background: transparent;
 }
-/*-----------Go To Top Button CSS Ends-------------*/
+/*-----------Go To Top Button CSS Ends--------------*/
+
+/*----------- Testimonial CSS Starts ---------------*/
+
+.testimonial-section {
+    padding: 58px 0;
+}
+
+
+.testimonial-section h2 {
+    color: #2D3970;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    max-width: 416px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.testimonial-card {
+    border: 1px solid #B91E31;
+    width: 430px;
+    height: 460px;
+}
+
+/*----------- Testimonial CSS Ends -----------------*/

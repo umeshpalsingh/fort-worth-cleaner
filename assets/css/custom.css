@@ -453,3 +453,118 @@ a {
 /*----------- Testimonial CSS Ends -----------------*/
 
 
+/*----------- About Page CSS Starts ---------------*/
+
+.about-banner-box {
+    position: relative;
+}
+
+
+.about-heading {
+    position: absolute;
+    top: 38%;
+    left: 22%;
+}
+
+.about-heading h1 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: left;
+
+}
+
+.about-section {
+    margin: 36px 0 58px;
+}
+
+.about-section h3 {
+    color: #B91E31;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.about-section p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about-section .about-wrapper p:last-child {
+    font-weight: 700;
+    margin-bottom: 58px;
+}
+
+.about-section .about-box {
+    height: 100%;
+    padding: 30px 40px 70px;
+}
+
+.about-section .blue {
+    background-color: #2D3970;
+    width: 100%;
+}
+
+.about-section .red {
+    background-color: #B91E31;
+    width: 100%;
+}
+
+.about-section .about-box h5 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.about-section .about-box p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-section .about-box ul {
+    position: relative;
+    left: 50px;
+}
+
+.about-section .about-box ul li {
+    list-style: disc;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 677px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+/*----------- About Page CSS Ends ---------------*/
+
+
+
+/*----------- Pick up Page CSS Starts ------------*/
+
+
+
+
+
+/*----------- Pick up Page CSS Ends ------------*/

@@ -347,7 +347,13 @@ a {
 /*----------- Testimonial CSS Starts ---------------*/
 
 .testimonial-section {
-    padding: 58px 0;
+    padding: 68px 0 0;
+}
+
+.testimonial-section .swiper {
+    padding: 100px 0;
+    max-width: 1425px;
+    width: 100%;
 }
 
 
@@ -360,13 +366,90 @@ a {
     max-width: 416px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
 }
 
-.testimonial-card {
+.testimonial-section .testimonial-card {
     border: 1px solid #B91E31;
-    width: 430px;
-    height: 460px;
+    /* width: 430px; */
+    max-width: 430px;
+    width: 100%;
+    /* height: 460px; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.testimonial-section .testimonial-card .review-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.testimonial-section .testimonial-card h3 {
+    color: #2D3970;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+
+.testimonial-section .testimonial-card .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.testimonial-section .testimonial-card .stars span {
+    margin-right: 2px;
+}
+
+.testimonial-section .testimonial-card .review {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 275px;
+}
+
+.testimonial-section .testimonial-card .review-detail {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.testimonial-section .testimonial-card .review-detail p {
+    color: #2D3970;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.testimonial-section .swiper .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #B91E31;
+    background: transparent;
+    opacity: 1;
+}
+
+
+.swiper-pagination-bullet-active {
+    background: #2D3970 !important;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 30px;
 }
 
 /*----------- Testimonial CSS Ends -----------------*/
+
+

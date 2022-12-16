@@ -1,0 +1,247 @@
+/* CUSTOM CSS Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CAC8C8;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CAC8C8;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #CAC8C8;
+  }
+
+
+/*----------------- Navigation CSS Starts ---------------------*/
+
+.navbar {
+    --bs-navbar-padding-y: 0px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    padding: 1px 0;
+}
+
+.navbar .navbar-nav li a.active  {
+    color: #B91E31;
+}
+
+.navbar .navbar-nav li {
+    margin: 0;
+    margin-right: 26px;
+}
+
+.navbar .navbar-nav li a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D3970;
+}
+
+.navbar .sign-up {
+    background: #B91E31;
+    padding: 12px 28px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.navbar .call-link {
+    margin: 0;
+    margin-left: 52px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 38px;
+    color: #B91E31;
+}
+
+.navbar .call-link img {
+    margin-right: 15px;
+}
+
+/*----------------- Navigation CSS Ends ---------------------*/
+
+
+
+
+/*----------------- Footer CSS Starts ----------------------*/
+
+.footer {
+    padding: 22px 0 0;
+}
+
+.footer .footer-box {
+    max-width: 250px;
+}
+
+.footer .footer-box h5 {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;   
+    color: #B91E31;
+    margin-bottom: 44px;
+}
+
+.footer .footer-box .footer-links li a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D3970;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer .footer-box .locate {
+    margin-bottom: 30px;
+}
+
+.footer .footer-box .locate label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2D3970;
+    margin-bottom: 14px;
+    max-width: 230px;
+}
+
+.footer .footer-box .locate input {
+    padding: 12px ;
+    max-width: 248px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 1px solid #CAC8C8;
+    outline: none;
+}
+
+.footer .footer-box .locate button {
+    background: #B91E31;
+    border: none;
+    padding: 12px 36px;
+    color: #FFFFFF;
+    height: 46px;
+}
+
+.footer .footer-box .social-links .follow {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #B91E31;
+    text-decoration: underline;
+    display: inline-block;
+    height: 36px;
+    margin-right: 17px;
+}
+
+.flexxx {
+    display: flex;
+    width: 375px;
+}
+
+.footer .footerend {
+    background: #141414;
+    padding: 2px 0;
+    margin-top: 30px;
+}
+
+.footer .footerend p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.footer .footerend p a {
+    color: #FFFFFF;
+}
+
+/*----------------- Footer CSS Ends ----------------------*/
+
+.pickup {
+    background: #2D3970;
+    padding: 35px 0 43px;
+}
+
+.pickup p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+
+.banner-section {
+    background-repeat: no-repeat;
+    height: 530px;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-section .banner-heading {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    z-index: 99;
+}
+
+
+
+
+.gallery-section {
+    padding: 50px 0 0;
+}
+
+.gallery-img {
+    max-width: 350px;
+    margin: 0 25px 50px;
+}
+
+/* .gallery-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+} */

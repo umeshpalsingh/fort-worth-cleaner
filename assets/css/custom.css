@@ -563,8 +563,83 @@ a {
 
 /*----------- Pick up Page CSS Starts ------------*/
 
+.pickup-banner-box {
+    position: relative;
+}
 
 
+.pickup-heading {
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
 
+.pickup-heading h1 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 90px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.pickup-heading p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #FFFFFF;
+    max-width: 563px;
+}
+
+.pickup-section {
+    padding: 44px 28px;
+}
+
+.pickup-section h3 {
+    color: #2D3970;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+
+.pickup-section h6 {
+    color: #B91E31;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+form {
+    border: 2px solid #2D3970;
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 38px 0;
+}
+
+.form-box {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-box label {
+    display: block;
+}
+
+.form-box input {
+    border-radius: 5px;
+    outline: none;
+    max-width: 274px;
+    width: 100%;
+    height: 45px;
+    padding: 5px 20px;
+    border: 1px solid #000000;
+}
 
 /*----------- Pick up Page CSS Ends ------------*/

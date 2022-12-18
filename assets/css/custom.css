@@ -567,7 +567,6 @@ a {
     position: relative;
 }
 
-
 .pickup-heading {
     position: absolute;
     top: 22%;
@@ -592,7 +591,7 @@ a {
 }
 
 .pickup-section {
-    padding: 44px 28px;
+    padding: 44px 0 10px;
 }
 
 .pickup-section h3 {
@@ -604,7 +603,6 @@ a {
     text-align: center;
 }
 
-
 .pickup-section h6 {
     color: #B91E31;
     font-size: 25px;
@@ -614,32 +612,132 @@ a {
     margin-bottom: 42px;
 }
 
-form {
+.pickup-section .delivery-form {
     border: 2px solid #2D3970;
     max-width: 1220px;
     width: 100%;
-    margin: 0 auto;
-    padding: 38px 0;
+    margin: 18px auto;
+    padding: 38px 10px;
 }
 
-.form-box {
-    max-width: 640px;
+.pickup-section .delivery-form .form-box {
+    display: flex;
+    justify-content: center;
+    gap: 14px 95px;
+    max-width: 643px;
     width: 100%;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 
-.form-box label {
+.pickup-section .delivery-form .form-box .input-box {
     display: block;
-}
-
-.form-box input {
-    border-radius: 5px;
-    outline: none;
     max-width: 274px;
     width: 100%;
-    height: 45px;
-    padding: 5px 20px;
-    border: 1px solid #000000;
 }
 
-/*----------- Pick up Page CSS Ends ------------*/
+.pickup-section .delivery-form .form-box .input-box label, input {
+    display: block;
+    width: 100%;
+}
+
+.pickup-section .delivery-form .form-box .input-box label, .address-box label, .form-2 .form-2-box p {
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+
+.pickup-section .delivery-form .form-box .input-box input, .address-box input {
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.pickup-section .delivery-form .address-box {
+    max-width: 643px;
+    width: 100%;
+    margin: 34px auto 26px;
+}
+
+.pickup-section .delivery-form .address-box input {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.pickup-section .form-2 {
+    padding: 13px 10px 26px;
+}
+
+.pickup-section .form-2 .form-2-box {
+    max-width: 648px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0 13px;
+}
+
+.pickup-section .form-2 .form-2-box .radio-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pickup-section .form-2 input[type="radio"] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.pickup-section .form-2 label {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.pickup-section .form-2 .form-2-box .radio-box .radio-wrap { 
+    max-width: 126px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.pickup-section .form-2 .form-2-box .radio-box .other-option {
+    max-width: 274px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.pickup-section .form-2 .form-2-box .radio-box .other-option input {
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.pickup-section .form-2 button[type="submit"] {
+    max-width: 273px;
+    width: 100%;
+    margin: 52px auto 0;
+    display: block;
+    background-color: #B91E31;
+    border: none;
+    padding: 13px 0 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

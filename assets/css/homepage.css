@@ -1,0 +1,151 @@
+/*--------- HOME PAGE CSS Starts ------------ */
+
+.card-section {
+    padding-top: 57px;
+}
+
+.card-section .swiper {
+    padding: 80px 0 60px;
+}
+
+.fort-banner-first {
+    padding: 60px 0 0;
+}
+
+.inspection-section {
+
+}
+
+
+.inspection-section h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #2D3970;
+}
+
+.inspection-section h6 {
+    color: #B91E31;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.inspection-box {
+    display: flex;
+    max-width: 1212px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inspection-list {
+    max-width: 532px;
+    width: 100%;
+    padding-top: 28px;
+}
+
+.inspection-list ul {
+    list-style: disc;
+}
+
+.inspection-list ul li {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    color: #141414;
+    margin-bottom: 16px;
+}
+
+
+.quality-section {
+    padding: 60px 0;
+}
+
+.quality-section .quality-box {
+    background-size: cover;
+    min-height: 634px;
+    position: relative;
+}
+
+.quality-section .quality-box::before {
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-color: #B91E31;
+    position: absolute;
+    top: -18px;
+}
+
+.quality-section .quality-box::after {
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-color: #B91E31;
+    position: absolute;
+    bottom: -18px;
+}
+
+.quality-section .quality-box h3 {
+    color: #FFFDFD;
+    text-align: center;
+    padding: 49px 0 76px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    max-width: 548px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quality-section .quality-box .mySlider {
+    max-width: 1369px;
+    width: 100%;
+}
+
+.quality-section .quality-box .mySlider .quality-point {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quality-section .quality-box .mySlider .quality-point .quality-icon {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.quality-section .quality-box .mySlider .quality-point p {
+    color: #FFFDFD;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.quality-section .quality-box .mySlider {
+    padding-bottom: 100px;
+}
+
+.quality-section .quality-box .mySlider .swiper-pagination {
+    bottom: 0;
+}
+
+.quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid #FFFDFD;
+    opacity: 1;
+}
+
+.quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet-active {
+    background: #FFFDFD !important;
+}
+
+
+/*--------- HOME PAGE CSS Ends ------------ */

@@ -131,10 +131,6 @@
     padding-bottom: 100px;
 }
 
-.quality-section .quality-box .mySlider .swiper-pagination {
-    bottom: 0;
-}
-
 .quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet {
     width: 16px;
     height: 16px;
@@ -145,6 +141,68 @@
 
 .quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet-active {
     background: #FFFDFD !important;
+}
+
+
+.service-section {
+    padding-top: 44px;
+}
+
+.service-section .service-wrapper {
+    display: flex;
+}
+
+.service-section .service-wrapper .service-box {
+    max-width: 1096px;
+    width: 100%;
+    height: 540px;
+    padding: 184px 0 158px 162px;
+}
+
+.service-section .service-wrapper .service-box h2 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: left;
+    max-width: 426px;
+}
+
+.service-section .service-wrapper .service-list {
+    padding-top: 83px;
+    padding-left: 95px;
+}
+
+.service-section .service-wrapper .service-list h3 {
+    color: #B91E31;
+    margin-bottom: 59px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;  
+    text-decoration-line: underline;
+}
+
+.service-section .service-wrapper .service-list ol li {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: #2D3970;
+}
+
+.service-section .service-wrapper .service-list .book-btn {
+    background-color: #B91E31;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 53px;
+    max-width: 265px;
+    width: 100%;
+    height: 45px;
 }
 
 

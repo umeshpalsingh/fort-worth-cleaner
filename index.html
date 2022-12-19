@@ -6,6 +6,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Link Swiper's CSS -->
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
       <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
       <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
    </head>
@@ -14,6 +19,91 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <img src="assets/img/top.svg" alt="top">
     </button>
+
+    <!-- Modal -->
+    <div class="modal fade modal-lg" id="signup_modal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered justify-content-center">
+        <div class="modal-body">
+          <div class="modal_signup" style="background-image: url(assets/img/signup-bg.png);">
+            <form class="modal_form" action="">
+              <div class="modal_form_wrapper">
+                <div>
+                  <label for="">First Name</label>
+                  <input type="text">
+                </div>
+                <div>
+                  <label for="">Last Name</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="modal_form_wrapper">
+                <div>
+                  <label for="">Pick Up Address</label>
+                  <input type="text">
+                </div>
+                <div>
+                  <label for="">Drop Address</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="modal_form_wrapper">
+                <div>
+                  <label for="">Contact No.</label>
+                  <input type="text">
+                </div>
+                <div>
+                  <label for="">Email</label>
+                  <input type="text">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal_signup" style="background-image: url(assets/img/signup-bg.png);">
+              <form class="modal_form" action="">
+                <div class="modal_form_wrapper">
+                  <div class="mod-box">
+                    <label for="">First Name</label>
+                    <input type="text">
+                  </div>
+                  <div class="mod-box">
+                    <label for="">Last Name</label>
+                    <input type="text">
+                  </div>
+                </div>
+                <div class="modal_form_wrapper">
+                  <div class="mod-box">
+                    <label for="">Pick Up Address</label>
+                    <input type="text">
+                  </div>
+                  <div class="mod-box">
+                    <label for="">Drop Address</label>
+                    <input type="text">
+                  </div>
+                </div>
+                <div class="modal_form_wrapper">
+                  <div class="mod-box">
+                    <label for="">Contact No.</label>
+                    <input type="text">
+                  </div>
+                  <div class="mod-box">
+                    <label for="">Email</label>
+                    <input type="text">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -43,23 +133,128 @@
              </li>
           </ul>
           <div>
-              <a class="sign-up" href="#">Sign Up</a>
+              <a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" class="sign-up" href="#">Sign Up</a>
           </div>
        </div>
       </div>      
     </nav>
 
-    <section class="home-banner">
-      <!-- <div class="row">
-        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
-          <div>
-            <img src="assets/img/HD Van 2022 1.png" alt="van">
+    <section class="inspection-section">
+      <div class="container">
+        <h3>7 Points of Final Inspection</h3>
+        <h6>Before Bagging & Customer Pickup</h6>
+        <div class="inspection-box">
+          <div class="inspection-img">
+            <img class="img-fluid" src="assets/img/satisfaction.png" alt="">
+          </div>
+          <div class="inspection-list">
+            <ul>
+              <li>Finished Collar</li>
+              <li>No Creases/wrinkles</li>
+              <li>No Broken or Missing Buttons</li>
+              <li>Perfect crease in slacks, pants, suits</li>
+              <li>No Clamp marks</li>
+              <li>No stains (If untreatable, the garment will have a “time-out” tag)</li>
+              <li>Careful Hand washed garments</li>
+            </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+      </div>
+    </section>
 
+    <section class="fort-banner-section fort-banner-first">
+      <div class="container">
+        <div class="fort-banner" style="background-image: url(assets/img/best-worth.png);">
+          <div class="fort-container">
+            <div class="award">
+              <img class="img-fluid" src="assets/img/award-1.png" alt="">
+            </div>
+            <div class="award">
+              <img class="img-fluid" src="assets/img/award-2.png" alt="">
+            </div>
+            <div class="award">
+              <img class="img-fluid" src="assets/img/award-3.png" alt="">
+            </div>
+          </div>
         </div>
-      </div> -->
+      </div>
+    </section>
+
+    <section class="testimonial-section card-section">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <!-- Swiper -->
+        <div class="swiper myFirstSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="review-img">
+                  <img class="img-fluid" src="assets/img/review1.png" alt="">
+                </div>
+                <h3>Teresa Hawk Bell</h3>
+                <div class="stars">
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                </div>
+                <p class="review">
+                  “Fantastic service and fantastic people! I would never think of using anyone else!”
+                </p>
+                <div class="review-detail">
+                  <p>12 Nov 2022</p>
+                  <p>Google Review</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="review-img">
+                  <img class="img-fluid" src="assets/img/review2.png" alt="">
+                </div>
+                <h3>Teresa Hawk Bell</h3>
+                <div class="stars">
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                </div>
+                <p class="review">
+                  “Fantastic service and fantastic people! I would never think of using anyone else!”
+                </p>
+                <div class="review-detail">
+                  <p>12 Nov 2022</p>
+                  <p>Google Review</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="review-img">
+                  <img class="img-fluid" src="assets/img/review3.png" alt="">
+                </div>
+                <h3>Teresa Hawk Bell</h3>
+                <div class="stars">
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                  <span><img src="assets/img/star.svg" alt="star"></span>
+                </div>
+                <p class="review">
+                  “Fantastic service and fantastic people! I would never think of using anyone else!”
+                </p>
+                <div class="review-detail">
+                  <p>12 Nov 2022</p>
+                  <p>Google Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div class="pickup">
@@ -68,63 +263,62 @@
       </div>
     </div>
 
+
     <section class="footer">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-            <img class="img-fluid" src="assets/img/fort worth logo 2.png" alt="Fort Worth Cleaner">
+        <div class="footer-box">
+          <div class="footer-logo">
+            <img class="img-fluid" src="assets/img/fort worth logo 2.png" alt="logo">
           </div>
-          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <div class="footer-box">
-                  <h5>Quick Links</h5>
-                  <ul class="footer-links">
-                    <li><a href="#">Pickup and Delivery</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                  </ul>
+          <div class="footer-wrapper">
+            <div class="wrapper-box box-1">
+              <h5>Quick Links</h5>
+              <ul>
+                <li><a href="pickup.html">Pickup and Delivery</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="wrapper-box box-2">
+              <h5>Contact Us</h5>
+              <ul>
+                <li><a href=""><a href="#"><img class="pe-1" src="assets/img/mail.svg" alt=""> 7325 Boat Club Rd, Fort Worth, TX 76179</a></li>
+                <li><a href="tel:(817) 236-3388"><img class="pe-1" src="assets/img/call-2.svg" alt=""> (817) 236-3388</a></li>
+              </ul>
+            </div>
+            <div class="wrapper-box box-3">
+              <h5>Order Here</h5>
+              <form>
+                <label class="footer-label" for="">Enter Your Pickup Location</label>
+                <div class="footer-form">
+                  <input type="text" placeholder="Enter Your Location">
+                  <button type="submit">Submit</button>
                 </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <div class="footer-box">
-                  <h5>Contact Us</h5>
-                  <ul class="footer-links">
-                    <li class="mb-2"><a href="#"><img class="pe-1" src="assets/img/mail.svg" alt=""> 7325 Boat Club Rd, Fort Worth, TX 76179</a></li>
-                    <li><a href="tel:(817) 236-3388"><img class="pe-1" src="assets/img/call-2.svg" alt=""> (817) 236-3388</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <div class="footer-box">
-                  <h5>Order Here</h5>
-                  <form class="locate">
-                    <label for="location">Enter Your Pickup Location</label>
-                    <div class="flexxx">
-                      <input id="location" type="text" placeholder="Enter Your Location">
-                      <button type="submit">Submit</button> 
-                    </div>       
-                  </form>
-                  <div class="social-links">
-                    <span class="follow">Follow us</span>
-                    <span><a href=""><img src="assets/img/bxl_facebook.svg" alt="facebook"></a></span>
-                    <span><a href=""><img src="assets/img/carbon_logo-instagram.svg" alt="instagram"></a></span>
-                  </div>
-                </div>
+              </form>
+              <div class="social-links">
+                <span class="follow">Follow us</span>
+                <ul>
+                  <li><a href=""><img src="assets/img/bxl_facebook.svg" alt="facebook"></a></li>
+                  <li><a href=""><img src="assets/img/carbon_logo-instagram.svg" alt="instagram"></a></li>
+                </ul> 
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footerend">
-        <p>
-          All Rights Reserved © <span id="year"></span> fort worth family cleaners. Designed and Developed by <a href="https://ogrelogic.com/" target="_blank"> Ogrelogic.</a>
-        </p>
-     </div>
+    </section>
+    <section class="footer-end">
+      <div class="container">
+        <p>All Rights Reserved © <span id="year"></span> fort worth family cleaners. Designed and Developed by <a class="text-white" target="_blank" href="https://ogrelogic.com/">Ogrelogic</a>.</p>
+      </div>
     </section>
 
 
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>    
     <script src="assets/js/custom_js.js"></script>
+        
    </body>
 </html>

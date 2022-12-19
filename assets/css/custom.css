@@ -92,6 +92,50 @@ a {
     margin-right: 15px;
 }
 
+.modal .modal-body {
+    padding: 0;
+}
+
+
+.modal .modal_signup {
+    width: 100%;
+    border: 8px solid #FFFFFF;
+    height: 487px;
+    position: relative;
+    padding: 40px 10px 30px;
+}
+
+.modal_form_wrapper {
+    display: flex;
+    gap: 7px 67px;
+    justify-content: center;
+    margin-top: 7px;
+    flex-wrap: wrap;
+}
+
+.modal_form_wrapper .mod-box {
+    display: block;
+    max-width: 232px;
+    width: 100%;
+}
+
+.modal_form_wrapper label {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 11px;
+}
+
+.modal_form_wrapper input {
+    max-width: 232px;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
 /*----------------- Navigation CSS Ends ---------------------*/
 
 
@@ -100,98 +144,145 @@ a {
 /*----------------- Footer CSS Starts ----------------------*/
 
 .footer {
-    padding: 22px 0 0;
+    padding: 22px 0 35px;
 }
 
 .footer .footer-box {
-    max-width: 250px;
+    display: flex;
 }
 
-.footer .footer-box h5 {
-    text-decoration: underline;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 38px;   
+.footer .footer-box .footer-logo {
+    padding-right: 254px;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 10px 55px;
+    padding-top: 30px;
+}
+
+
+.footer-wrapper .box-1 {
+   width: 195px;
+}
+
+.footer-wrapper .box-2 {
+   width: 259px;
+}
+
+.footer-wrapper .box-3 {
+   width: 379px;
+}
+
+.footer .footer-box .footer-wrapper .wrapper-box h5 {
     color: #B91E31;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
     margin-bottom: 44px;
 }
 
-.footer .footer-box .footer-links li a {
+.footer .footer-box .footer-wrapper .wrapper-box ul li {
+    margin-bottom: 4px;
+}
+
+.footer .footer-box .footer-wrapper .wrapper-box ul li a {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #2D3970;
+}
+
+.footer .footer-box .footer-wrapper .box-2 ul li {
+    margin-bottom: 9px;
+}
+
+.footer .footer-box .footer-wrapper .box-2 ul li a {
     display: flex;
     align-items: baseline;
 }
 
-.footer .footer-box .locate {
-    margin-bottom: 30px;
-}
-
-.footer .footer-box .locate label {
+.footer .footer-box .footer-wrapper .box-3 .footer-label {
+    color: #2D3970;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    color: #2D3970;
     margin-bottom: 14px;
-    max-width: 230px;
+    max-width: 227px;
+    width: 100%;
+} 
+
+.footer .footer-box .footer-wrapper .box-3 .footer-form {
+    display: flex;
 }
 
-.footer .footer-box .locate input {
-    padding: 12px ;
+
+.footer .footer-box .footer-wrapper .box-3 .footer-form input {
     max-width: 248px;
     width: 100%;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
+    height: 45px;
+    padding: 14px;
     border: 1px solid #CAC8C8;
     outline: none;
 }
 
-.footer .footer-box .locate button {
-    background: #B91E31;
+.footer .footer-box .footer-wrapper .box-3 .footer-form button {
+    background-color: #B91E31;
     border: none;
-    padding: 12px 36px;
+    padding: 13px 0 12px;
+    height: 45px;
+    max-width: 131px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110.5%;
+    text-align: center;
     color: #FFFFFF;
-    height: 46px;
 }
 
-.footer .footer-box .social-links .follow {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
+.social-links {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links .follow {
     color: #B91E31;
-    text-decoration: underline;
-    display: inline-block;
-    height: 36px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-decoration-line: underline;
     margin-right: 17px;
 }
 
-.flexxx {
+.social-links ul {
     display: flex;
-    width: 375px;
 }
 
-.footer .footerend {
-    background: #141414;
+.social-links ul li {
+    margin-right: 8px;
+}
+
+.footer-end {
     padding: 2px 0;
-    margin-top: 30px;
+    background: #141414;
 }
-
-.footer .footerend p {
-    text-align: center;
+.footer-end p {
+    color: #FFFFFF;
+    font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
-    color: #FFFFFF;
-}
+    text-align: center;
 
-.footer .footerend p a {
-    color: #FFFFFF;
 }
 
 /*----------------- Footer CSS Ends ----------------------*/
+
 
 .pickup {
     background: #2D3970;
@@ -236,6 +327,10 @@ a {
 .gallery-img {
     max-width: 350px;
     margin: 0 25px 50px;
+}
+
+.gallery-img img:hover {
+    cursor: pointer;
 }
 
 /* .gallery-group {
@@ -741,3 +836,72 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
+
+
+/*--------- HOME PAGE CSS Starts ------------ */
+
+.card-section {
+    padding-top: 57px;
+}
+
+.card-section .swiper {
+    padding: 80px 0 60px;
+}
+
+.fort-banner-first {
+    padding: 60px 0 0;
+}
+
+.inspection-section {
+
+}
+
+
+.inspection-section h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #2D3970;
+}
+
+.inspection-section h6 {
+    color: #B91E31;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.inspection-box {
+    display: flex;
+    max-width: 1212px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inspection-list {
+    max-width: 532px;
+    width: 100%;
+    padding-top: 28px;
+}
+
+.inspection-list ul {
+    list-style: disc;
+}
+
+.inspection-list ul li {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    color: #141414;
+    margin-bottom: 16px;
+}
+
+
+
+
+/*--------- HOME PAGE CSS Ends ------------ */

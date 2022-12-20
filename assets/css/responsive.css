@@ -68,15 +68,60 @@
     .quality-section .quality-box h3 {
         font-size: 38px;
     }
+
+    .about-section p {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .about-section .about-box h5 {
+        font-size: 38px;
+        line-height: 54px;
+    }
+
+    .about-section .about-box p, .about-section .about-box ul li {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .award img {
+        max-width: 240px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point {
+        padding: 0 16px;
+    }
+
+
 }
 
 @media (max-width: 1428px) {
     .service-section .service-wrapper .service-box {
-        max-width: 690px;
+        max-width: 800px;
+    }
+
+    .about-section p {
+        font-size: 26px;
     }
 }
 
 @media (max-width: 1399px) {
+
+    .service-section .service-wrapper .service-box {
+        max-width: 700px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+
+    .fort-container {
+        justify-content: center;
+        column-gap: 60px;
+    }
+    
 
     .navbar .call-link {
         margin-left: 30px;
@@ -151,6 +196,29 @@
 
     .footer .footer-box .footer-wrapper .box-2 ul li a {
         align-items: flex-start;
+    }
+
+    .about-section p {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .about-section .about-box p, .about-section .about-box ul li {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .about-section .about-box ul {
+        left: 35px;
+    }
+
+    .about-heading h1 {
+        font-size: 50px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point p {
+        font-size: 19px;
+        line-height: 28px;
     }
 
 
@@ -233,6 +301,104 @@
         padding-top: 14px;
     }
 
+    .about-section p {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .about-section h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about-section .about-box p, .about-section .about-box ul li {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .pickup {
+        padding: 30px 0;
+    }
+
+    .pickup p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .about-heading h1 {
+        font-size: 48px;
+        line-height: 80px;
+    }
+
+    .quality-section .quality-box h3 {
+        font-size: 34px;
+    }
+
+    .service-section .service-wrapper .service-box {
+        max-width: 565px;
+        padding-left: 100px;
+        padding-top: 155px;
+        height: 460px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .service-section .service-wrapper .service-list {
+        padding-left: 44px;
+        padding-top: 80px;
+    }
+
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 24px;
+        line-height: 42px;
+    }
+
+    .service-section .service-wrapper .service-list h3 {
+        margin-bottom: 45px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .inspection-list {
+        max-width: 470px;
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .inspection-list ul li {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: left;
+        color: #141414;
+        margin-bottom: 13px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .testimonial-section .testimonial-card h3 {
+        margin-top: 90px;
+    }
+
+    .testimonial-section .testimonial-card .review {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .testimonial-section .testimonial-card .review-detail {
+        padding: 0 10px;
+    }
+
+    .testimonial-section .testimonial-card .review-detail p {
+        font-size: 16px;
+        line-height: 20px;
+    }
 
 }
 
@@ -241,6 +407,8 @@
 }
 
 @media (max-width: 991px) {
+
+
     .navbar .navbar-nav li {
         margin-top: 10px;
     }
@@ -311,12 +479,125 @@
         width: 220px;
     }
 
+    .inspection-section h3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .inspection-box {
+        flex-wrap: wrap;
+    }
+
+    .inspection-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inspection-list {
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .inspection-list ul {
+        padding-left: 30px;
+    }
+
+    .service-section .service-wrapper .service-box {
+        height: 320px;
+        max-width: 400px;
+        padding-top: 90px;
+        padding-left: 70px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .service-section .service-wrapper .service-list {
+        padding-top: 20px;
+    }
+
+    .service-section .service-wrapper .service-list h3 {
+        margin-bottom: 25px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .service-section .service-wrapper .service-list .book-btn {
+        margin-top: 20px;
+    }
+
+    .about-heading h1 {
+        font-size: 38px;
+        line-height: 62px;
+    }
+
+    .award img {
+        max-width: 180px;
+    }
+
 }
 
 @media (max-width: 767px) {
+
+    .service-section .service-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .service-section .service-wrapper .service-box {
+        max-width: 100%;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .about-heading h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .service-section .service-wrapper .service-list {
+        padding-left: 60px;
+    }
+
     .footer-wrapper {
         flex-wrap: wrap;
     }
+
+    .quality-section .quality-box {
+        min-height: 570px;
+    }
+
+    .quality-section .quality-box h3 {
+        padding: 32px 0 42px;
+    }
+
+    .footer-wrapper .box-3 {
+        width: 250px;
+    }
+    .service-box h2 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .inspection-list ul li {
+        margin-bottom: 0px;
+    }
+
+    
 }
 
 @media (max-width: 625px) {
@@ -324,11 +605,71 @@
 }
 
 @media (max-width: 575px) {
-    
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .service-section .service-wrapper .service-list {
+        padding-left: 20px;
+    }
+
+    .quality-section .quality-box {
+        min-height: 525px;
+    }
+
+    .quality-section .quality-box h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .quality-section .quality-box h3 {
+        padding: 32px 0 22px;
+    }
+
+    .inspection-section h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .inspection-section h6 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .inspection-list ul li {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .award img {
+        max-width: 160px;
+    }
 }
 
 @media (max-width: 428px) {
+    .fort-banner {
+        min-height: 560px;
+    }
     
+    .service-section .service-wrapper .service-box {
+        padding-left: 30px;
+    }
+
+    .quality-section .quality-box h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .inspection-list ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
 }
 
 @media (max-width: 375px) {

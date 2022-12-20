@@ -4,3 +4,337 @@
     }
 }
 
+@media (max-width: 1690px) {
+    .service-section .service-wrapper .service-list {
+        padding-left: 35px;
+    }
+
+    
+}
+
+
+@media (max-width: 1599px) {
+
+    .navbar .call-link {
+        margin-left: 30px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .navbar .sign-up {
+        padding: 10px 22px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .footer .footer-box {
+        justify-content: space-between;
+    }
+    .footer .footer-box .footer-logo {
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    .footer-wrapper {
+        gap: 10px 30px;
+    }
+
+    .service-section .service-wrapper .service-list h3 {
+        margin-bottom: 45px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 26px;
+    }
+
+    .service-section .service-wrapper .service-list .book-btn {
+        margin-top: 35px;
+    }
+
+    .service-section .service-wrapper .service-box {
+        max-width: 900px;
+    }
+
+    .service-section .service-wrapper .service-list {
+        padding-left: 70px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+    .quality-section .quality-box h3 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1428px) {
+    .service-section .service-wrapper .service-box {
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .navbar .call-link {
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .navbar .navbar-nav li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2D3970;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box h5 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box ul li a {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-label {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form input {
+        max-width: 210px;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form button {
+        max-width: 115px;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .footer-wrapper .box-3 {
+        width: 300px;
+    }
+
+    .social-links {
+        margin-top: 20px;
+    }
+
+    .social-links .follow {
+        font-size: 18px;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box ul li a img {
+        width: 25px;
+        margin-top: 4px;
+    }
+
+    .footer-end p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .footer-wrapper {
+        gap: 10px 20px;
+    }
+
+    .footer-wrapper .box-2 {
+        width: 240px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-2 ul li a {
+        align-items: flex-start;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+
+    .navbar .call-link {
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .navbar .navbar-nav li {
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-nav li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .navbar .sign-up {
+        padding: 8px 18px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .navbar .call-link img {
+        margin-right: 5px;
+        width: 22px;
+    }
+
+    .footer-wrapper {
+        gap: 10px;
+        padding-top: 14px;
+    }
+
+    .footer-wrapper .box-3 {
+        width: 260px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form button {
+        max-width: 80px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form input {
+        padding: 8px;
+    }
+
+    .footer-wrapper .box-2 {
+        width: 235px;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box h5 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box ul li a {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-label {
+        font-size: 17px;
+        max-width: 200px;
+    }
+
+    .social-links {
+        margin-top: 12px;
+    }
+
+    .footer-wrapper .box-1 {
+        width: 180px;
+    }
+
+    .footer .footer-box .footer-logo {
+        padding-top: 14px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 991px) {
+    .navbar .navbar-nav li {
+        margin-top: 10px;
+    }
+    .navbar .navbar-nav li a {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 20px;
+    }
+    .navbar .sign-up {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .footer-end p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer .footer-box {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .footer .footer-box .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .footer-box .footer-logo img {
+        max-width: 230px;
+    }
+
+    .footer-wrapper {
+        gap: 10px 40px;
+        padding: 0;
+    }
+
+    .footer-wrapper .box-3 {
+        width: 250px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form input {
+        max-width: 160px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form input {
+        font-size: 14px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form button {
+        font-size: 14px;
+        max-width: 70px;
+    }
+
+    #myBtn {
+        right: 30px;
+    }
+
+    #myBtn img {
+        width: 38px;
+    }
+
+    .footer-wrapper .box-3 {
+        width: 220px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 625px) {
+    
+}
+
+@media (max-width: 575px) {
+    
+}
+
+@media (max-width: 428px) {
+    
+}
+
+@media (max-width: 375px) {
+    
+}
+
+@media (max-width: 340px) {
+    
+}

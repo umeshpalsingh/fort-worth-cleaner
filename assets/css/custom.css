@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 html {
     box-sizing: border-box;
@@ -192,10 +196,7 @@ a {
 }
 
 
-
 /*----------------- Navigation CSS Ends ---------------------*/
-
-
 
 
 /*----------------- Footer CSS Starts ----------------------*/
@@ -607,6 +608,7 @@ a {
 
 /*----------- About Page CSS Starts ---------------*/
 
+
 .about-flex {
     display: flex;
 }
@@ -717,6 +719,7 @@ a {
 
 
 /*----------- Pick up Page CSS Starts ------------*/
+
 
 .pickup-flex {
     display: flex;

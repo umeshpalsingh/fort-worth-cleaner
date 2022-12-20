@@ -550,10 +550,13 @@ a {
 
 /*----------- About Page CSS Starts ---------------*/
 
+.about-flex {
+    display: flex;
+}
+
 .about-banner-box {
     position: relative;
 }
-
 
 .about-heading {
     position: absolute;
@@ -657,6 +660,10 @@ a {
 
 
 /*----------- Pick up Page CSS Starts ------------*/
+
+.pickup-flex {
+    display: flex;
+}
 
 .pickup-banner-box {
     position: relative;

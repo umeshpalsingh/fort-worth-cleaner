@@ -453,6 +453,7 @@ a {
 .fort-banner {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     height: 416px;
 }

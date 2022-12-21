@@ -64,6 +64,8 @@
 .quality-section .quality-box {
     background-size: cover;
     min-height: 634px;
+    background-repeat: no-repeat;
+    background-position: left;
     position: relative;
 }
 

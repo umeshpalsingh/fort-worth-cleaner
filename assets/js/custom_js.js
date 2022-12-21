@@ -9,7 +9,7 @@ document.getElementById("year").innerHTML = year;
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -30,7 +30,7 @@ function topFunction() {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 66,
-  loop:true,
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -49,7 +49,7 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 50,
     }
   }
-});     
+});
 
 var swiper = new Swiper(".myFirstSwiper", {
   slidesPerView: 3,
@@ -72,7 +72,7 @@ var swiper = new Swiper(".myFirstSwiper", {
       spaceBetween: 50,
     }
   }
-});   
+});
 
 var swiper = new Swiper(".mySlider", {
   slidesPerView: 3,
@@ -88,11 +88,14 @@ var swiper = new Swiper(".mySlider", {
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 40,
+      spaceBetween: 30,
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 50,
+      spaceBetween: 40,
+    },
+    1599: {
+      spaceBetween: 50
     }
   }
 });

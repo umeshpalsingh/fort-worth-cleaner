@@ -144,8 +144,15 @@
 
     .service-section .service-wrapper .service-box {
         max-width: 700px;
+        padding-top: 165px;
+        padding-left: 155px;
+        height: 480px;
     }
 
+    .service-section .service-wrapper .service-list {
+        padding-left: 70px;
+        padding-top: 80px;
+    }
     .service-section .service-wrapper .service-box h2 {
         font-size: 48px;
         line-height: 58px;
@@ -311,14 +318,32 @@
         font-size: 24px;
         line-height: 36px;
     }
+
+    .quality-section .quality-box .mySlider .quality-point .quality-icon {
+        margin-bottom: 15px;
+    }
+
+    .quality-section .quality-box h3 {
+        padding: 40px 0 60px;
+    }
+
+    .quality-section .quality-box {
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 1299px) {
+    .service-section .service-wrapper .service-box {
+        max-width: 680px;
+    }
 }
 
 @media (max-width: 1199px) {
 
     .navbar .call-link {
-        margin-left: 20px;
-        font-size: 16px;
-        line-height: 20px;
+        margin-left: 16px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .navbar .navbar-nav li {
@@ -421,13 +446,14 @@
 
     .quality-section .quality-box h3 {
         font-size: 34px;
+        padding: 30px 0 50px;
     }
 
     .service-section .service-wrapper .service-box {
-        max-width: 565px;
-        padding-left: 100px;
-        padding-top: 155px;
-        height: 460px;
+        max-width: 590px;
+        padding-left: 120px;
+        padding-top: 145px;
+        height: 430px;
     }
 
     .service-section .service-wrapper .service-box h2 {
@@ -437,7 +463,7 @@
 
     .service-section .service-wrapper .service-list {
         padding-left: 44px;
-        padding-top: 80px;
+        padding-top: 70px;
     }
 
     .service-section .service-wrapper .service-list ol li {
@@ -467,8 +493,16 @@
     }
 
     .quality-section .quality-box .mySlider .quality-point p {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .quality-section .quality-box {
+        min-height: 570px;
+    }
+
+    .award img {
+        max-width: 230px;
     }
 
     .testimonial-section .testimonial-card h3 {
@@ -489,10 +523,30 @@
         line-height: 20px;
     }
 
+
 }
 
 @media (max-width: 1024px) {
-    
+    .service-section .service-wrapper .service-box {
+        max-width: 555px;
+        padding-left: 110px;
+        padding-top: 130px;
+        height: 400px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .testimonial-section .testimonial-card .review {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .testimonial-section .testimonial-card .review-detail {
+        padding: 0 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -591,21 +645,17 @@
         padding-left: 30px;
     }
 
-    .service-section .service-wrapper .service-box {
-        height: 320px;
-        max-width: 400px;
-        padding-top: 90px;
-        padding-left: 70px;
-    }
-
     .service-section .service-wrapper .service-box h2 {
-        font-size: 32px;
+        font-size: 36px;
         line-height: 42px;
     }
 
     .service-section .service-wrapper .service-list {
         padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
     }
+
 
     .service-section .service-wrapper .service-list h3 {
         margin-bottom: 25px;
@@ -614,12 +664,17 @@
     }
 
     .service-section .service-wrapper .service-list ol li {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 38px;
     }
 
     .service-section .service-wrapper .service-list .book-btn {
         margin-top: 20px;
+        max-width: 230px;
+    }
+
+    .fort-container {
+        column-gap: 50px;
     }
 
     .about-heading h1 {
@@ -629,6 +684,13 @@
 
     .award img {
         max-width: 180px;
+    }
+
+    .service-section .service-wrapper .service-box {
+        max-width: 430px;
+        padding-left: 60px;
+        padding-top: 130px;
+        height: 360px;
     }
 
 }
@@ -654,7 +716,9 @@
     }
 
     .service-section .service-wrapper .service-list {
-        padding-left: 60px;
+        max-width: 554px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .footer-wrapper {

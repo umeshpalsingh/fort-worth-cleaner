@@ -732,8 +732,9 @@ a {
 
 .pickup-heading {
     position: absolute;
-    top: 22%;
-    left: 18%;
+    top: 0;
+    padding-top: 115px;
+    padding-left: 163px;
 }
 
 .pickup-heading h1 {

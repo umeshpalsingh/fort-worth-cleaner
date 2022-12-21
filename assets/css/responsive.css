@@ -8,6 +8,27 @@
     .service-section .service-wrapper .service-list {
         padding-left: 35px;
     }
+    
+    .pickup-heading {
+        position: absolute;
+        top: 0;
+        padding-top: 90px;
+        padding-left: 130px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 58px;
+        line-height: 82px;
+        margin-bottom: 22px;
+    }
+
+    .pickup-heading p {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 45px;
+        color: #FFFFFF;
+        max-width: 500px;
+    }
 
     
 }
@@ -128,6 +149,23 @@
         margin-bottom: 22px;
     }
 
+    .pickup-heading {
+        padding-top: 100px;
+        padding-left: 115px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 54px;
+        line-height: 76px;
+        margin-bottom: 20px;
+    }
+
+    .pickup-heading p {
+        font-size: 22px;
+        line-height: 44px;
+        max-width: 480px;
+    }
+
 }
 
 @media (max-width: 1428px) {
@@ -138,9 +176,26 @@
     .about-section p {
         font-size: 26px;
     }
+
+    .pickup-heading p {
+        font-size: 21px;
+        line-height: 42px;
+        max-width: 460px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 18px;
+    }
 }
 
 @media (max-width: 1399px) {
+
+    .pickup-heading {
+        padding-top: 85px;
+        padding-left: 90px;
+    }
 
     .service-section .service-wrapper .service-box {
         max-width: 700px;
@@ -330,11 +385,45 @@
     .quality-section .quality-box {
         min-height: 600px;
     }
+
+    .pickup-heading h1 {
+        font-size: 46px;
+        line-height: 56px;
+        margin-bottom: 16px;
+    }
+
+    .pickup-heading p {
+        font-size: 20px;
+        line-height: 40px;
+        max-width: 460px;
+    }
 }
 
 @media (max-width: 1299px) {
     .service-section .service-wrapper .service-box {
         max-width: 680px;
+    }
+
+    .pickup-heading {
+        padding-top: 75px;
+        padding-left: 80px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 44px;
+        line-height: 52px;
+        margin-bottom: 14px;
+    }
+
+    .pickup-heading p {
+        font-size: 18px;
+        line-height: 34px;
+        max-width: 410px;
+    }
+
+    .pickup-heading {
+        padding-top: 70px;
+        padding-left: 65px;
     }
 }
 
@@ -417,7 +506,7 @@
 
     .about-section p {
         font-size: 18px;
-        line-height: 34px;
+        line-height: 32px;
     }
 
     .about-section h3 {
@@ -523,10 +612,43 @@
         line-height: 20px;
     }
 
+    .about-section .about-box {
+        height: 100%;
+        padding: 30px 30px 60px;
+    }
+
+    .about-section .about-box h5 {
+        margin-bottom: 35px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 14px;
+    }
+
+    .pickup-heading p {
+        font-size: 16px;
+        line-height: 32px;
+        max-width: 380px;
+    }
+
 
 }
 
 @media (max-width: 1024px) {
+
+    .pickup-heading {
+        padding-top: 60px;
+        padding-left: 50px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 10px;
+    }
+
     .service-section .service-wrapper .service-box {
         max-width: 555px;
         padding-left: 110px;
@@ -690,6 +812,32 @@
         height: 360px;
     }
 
+    .pickup-flex {
+        flex-wrap: wrap;
+    }
+
+    .pickup-banner-box, .pickup-banner-box img {
+        width: 100%;
+    }
+
+    .pickup-heading {
+        padding-top: 120px;
+        padding-left: 140px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 60px;
+        line-height: 72px;
+        margin-bottom: 30px;
+    }
+
+    .pickup-heading p {
+        font-size: 28px;
+        line-height: 45px;
+        max-width: 512px;
+    }
+
+
 }
 
 @media (max-width: 767px) {
@@ -774,17 +922,90 @@
         height: 350px;
     }
 
+    .about-flex img {
+        min-height: 250px;
+    }
+
+    .pickup-heading {
+        padding-top: 90px;
+        padding-left: 90px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 55px;
+        line-height: 66px;
+        margin-bottom: 24px;
+    }
+
+    .pickup-heading p {
+        font-size: 26px;
+        line-height: 42px;
+        max-width: 460px;
+    }
+
     
 }
 
 @media (max-width: 625px) {
-    .about-heading h1 {
-        font-size: 32px;
-        line-height: 42px;
+    .about-flex {
+        flex-wrap: wrap;
     }
+
+    .about-section .about-box ul {
+        left: 0px;
+        padding-left: 20px;
+    }
+
+    .about-heading h1 {
+        font-size: 72px;
+        line-height: 82px;
+    }
+
+    .pickup-heading {
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 52px;
+        line-height: 62px;
+        margin-bottom: 20px;
+    }
+
+
 }
 
 @media (max-width: 575px) {
+
+    .pickup-heading {
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 45px;
+        line-height: 54px;
+        margin-bottom: 10px;
+    }
+
+    .pickup-heading p {
+        font-size: 18px;
+        line-height: 36px;
+        max-width: 400px;
+    }
+
+    .about-heading {
+        left: 20%;
+    }
+
+    .about-flex img {
+        min-height: auto;
+    }
+
+    .about-heading h1 {
+        font-size: 65px;
+        line-height: 74px;
+    }
 
     .footer-wrapper {
         flex-wrap: wrap;
@@ -845,16 +1066,42 @@
     .award img {
         max-width: 160px;
     }
+
+    .footer .footer-box .footer-logo {
+        padding: 0;
+    }
 }
 
 @media (max-width: 428px) {
+
+    .pickup-heading h1 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .pickup-heading p {
+        font-size: 16px;
+        line-height: 32px;
+        max-width: 370px;
+    }
+
+    .pickup-heading {
+        padding-top: 45px;
+        padding-left: 20px;
+    }
+
+    .about-heading h1 {
+        font-size: 52px;
+        line-height: 66px;
+    }
 
     .pickup {
         padding: 20px 0;
     }
 
     .pickup p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 28px;
     }
 
@@ -881,12 +1128,30 @@
         line-height: 46px;
     }
 
-    .footer-wrapper {
-        
-    }
+
 }
 
 @media (max-width: 375px) {
+    
+    .navbar .call-link {
+        margin-left: 5px;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+    }
+
+    .pickup-heading {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .pickup-heading h1 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
     
 }
 

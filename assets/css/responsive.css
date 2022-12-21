@@ -943,6 +943,10 @@
         max-width: 460px;
     }
 
+    .pickup-section .delivery-form .form-box .input-box {
+        max-width: 100%;
+    }
+
     
 }
 
@@ -1007,9 +1011,14 @@
         line-height: 74px;
     }
 
+    .footer .footer-box {
+        gap: 20px;
+    }
+
     .footer-wrapper {
         flex-wrap: wrap;
         padding-left: 20px;
+        gap: 20px;
     }
 
     .about-section p {
@@ -1073,6 +1082,22 @@
 }
 
 @media (max-width: 428px) {
+
+    .footer-end p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .pickup-section h3 {
+        font-size: 38px;
+        line-height: 54px;
+    }
+
+    .pickup-section h6 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
 
     .pickup-heading h1 {
         font-size: 34px;
@@ -1151,6 +1176,25 @@
         font-size: 28px;
         line-height: 32px;
         margin-bottom: 5px;
+    }
+
+    .pickup-section h3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .pickup-section h6 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .pickup-section .delivery-form .form-box .input-box label, .address-box label, .form-2 .form-2-box p {
+        font-size: 18px;
+    }
+
+    .footer-wrapper {   
+        padding-left: 10px;
     }
     
 }

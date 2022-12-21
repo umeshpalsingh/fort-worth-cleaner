@@ -7,21 +7,18 @@
 @media (max-width: 1690px) {
     .service-section .service-wrapper .service-list {
         padding-left: 35px;
-    }
-    
+    } 
     .pickup-heading {
         position: absolute;
         top: 0;
         padding-top: 90px;
         padding-left: 130px;
     }
-
     .pickup-heading h1 {
         font-size: 58px;
         line-height: 82px;
         margin-bottom: 22px;
     }
-
     .pickup-heading p {
         font-size: 28px;
         font-weight: 500;
@@ -29,8 +26,6 @@
         color: #FFFFFF;
         max-width: 500px;
     }
-
-    
 }
 
 

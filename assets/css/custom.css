@@ -47,6 +47,10 @@ a {
 
 /*----------------- Navigation CSS Starts ---------------------*/
 
+.margin-top {
+    margin-top: 80px;
+}
+
 .navbar {
     --bs-navbar-padding-y: 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);

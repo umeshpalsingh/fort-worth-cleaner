@@ -166,6 +166,19 @@
         max-width: 480px;
     }
 
+    .banner-section .banner-heading {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .fort-banner-section {
+        padding: 45px 0 45px;
+    }
+
+    .fort-banner-first {
+        padding: 20px 0;
+    }
+
 }
 
 @media (max-width: 1428px) {
@@ -397,6 +410,10 @@
         line-height: 40px;
         max-width: 460px;
     }
+
+    .banner-section {
+        height: 350px;
+    }
 }
 
 @media (max-width: 1299px) {
@@ -428,6 +445,18 @@
 }
 
 @media (max-width: 1199px) {
+
+    .fort-banner-section {
+        padding: 30px 0 30px;
+    }
+
+    .fort-banner-first {
+        padding: 20px 0;
+    }
+
+    .gallery-img {
+        margin: 0 15px 30px;
+    }
 
     .navbar .call-link {
         margin-left: 16px;
@@ -633,6 +662,11 @@
         max-width: 380px;
     }
 
+    .banner-section .banner-heading {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
 
 }
 
@@ -673,6 +707,14 @@
 
 @media (max-width: 991px) {
 
+    .banner-section .banner-heading {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .banner-section {
+        height: 300px;
+    }
 
     .navbar .navbar-nav li {
         margin-top: 10px;
@@ -947,6 +989,15 @@
         max-width: 100%;
     }
 
+
+    .banner-section .banner-heading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .testimonial-section h2 {
+        margin-bottom: 20px;
+    }
     
 }
 
@@ -980,6 +1031,11 @@
 }
 
 @media (max-width: 575px) {
+
+    .gallery-img {
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
 
     .pickup-heading {
         padding-top: 50px;
@@ -1083,6 +1139,10 @@
 
 @media (max-width: 428px) {
 
+    .testimonial-section h2 {
+        font-size: 38px;
+    }
+
     .footer-end p {
         font-size: 15px;
         line-height: 20px;
@@ -1131,7 +1191,11 @@
     }
 
     .fort-banner {
-        min-height: 560px;
+        min-height: 480px;
+    }
+
+    .award img {
+        max-width: 150px;
     }
 
     .service-section .service-wrapper .service-box {
@@ -1157,6 +1221,10 @@
 }
 
 @media (max-width: 375px) {
+
+    .fort-banner {
+        min-height: 500px;
+    }
 
     .pickup p {
         font-size: 16px;

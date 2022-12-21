@@ -206,4 +206,94 @@
 }
 
 
+
+
+/*----------first section css -----------*/
+
+
+
+/* my css    himanshu  */
+.van_image{
+    max-width: 870px;
+    width: 100%;
+    position: relative;
+}
+.home_slider{
+    display: flex;
+}
+.van_image h1{
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+color: #2D3970;
+text-align: center;
+padding-top: 20px;
+}
+.van_image_slider {
+    position: relative;
+    height: 660px;
+    background: #2D3970;
+    max-width: 1075px;
+    width: 100%;
+    clip-path: polygon(14.2% 0, 100% 0, 100% 100%, 8.2% 100%, 0 82%);
+}
+
+
+.van_image{
+    position: relative;
+}
+.hh {
+    position: absolute;
+    right: -13% ;
+    z-index: -1111;
+}
+.van_image_slider::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000080;
+    height: 119px;
+    bottom: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+.overlap_slider .swiper-slide::before {
+    position: absolute;
+    content: "";
+    background-color: #2d3970b3;
+    bottom: 0px;
+    width: 100%;
+    right: 0;
+    z-index:11;
+    height: auto;
+    top: 0;
+}
+
+.van_image_slider h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.content {
+    max-width: 583px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 160px 0px;
+}
+.image_baner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1111111111;
+}
+
+.van_image_slider .swiper-slide.swiper-slide-active {
+    width: 1070px !important;
+}
+
+
+/*---------------------------------------*/
+
+
 /*--------- HOME PAGE CSS Ends ------------ */

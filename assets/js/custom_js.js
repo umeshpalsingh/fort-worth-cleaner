@@ -27,6 +27,9 @@ function topFunction() {
 
 /*------------------------------*/
 
+
+var swiper = new Swiper(".homeSlider", {});
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 66,

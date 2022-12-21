@@ -1157,6 +1157,11 @@
 }
 
 @media (max-width: 375px) {
+
+    .pickup p {
+        font-size: 16px;
+        line-height: 26px;
+    }
     
     .navbar .call-link {
         margin-left: 5px;

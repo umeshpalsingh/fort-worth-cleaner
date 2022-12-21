@@ -253,7 +253,7 @@ padding-top: 20px;
     background-color: #ff000080;
     height: 119px;
     bottom: 0px;
-    z-index: 9999;
+    z-index: 1;
     width: 100%;
 }
 .overlap_slider .swiper-slide::before {
@@ -263,7 +263,7 @@ padding-top: 20px;
     bottom: 0px;
     width: 100%;
     right: 0;
-    z-index:11;
+    z-index:1;
     height: auto;
     top: 0;
 }
@@ -288,12 +288,127 @@ padding-top: 20px;
     z-index: -1111111111;
 }
 
-.van_image_slider .swiper-slide.swiper-slide-active {
-    width: 1070px !important;
-}
 
 
 /*---------------------------------------*/
 
 
 /*--------- HOME PAGE CSS Ends ------------ */
+.homeSlider{
+    position: relative;
+}
+.mainconentbottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 119px;
+    width: 100%;
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainconentbottom .leftconet h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFDFD;
+}
+.mainconentbottom .leftconet p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+color: #FFFDFD;
+border-top: 2px solid #FFFFFF;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+}
+.rating ul {
+    display: flex;
+    gap: 10px;
+}
+.rating span{
+    padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: -0.085em;
+    color: #FFFDFD;
+}
+
+.maincontent{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.maincontent{
+    max-width: 585px;
+    width: 100%;
+}
+
+.maincontent h1{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    text-align: left;
+}
+.mainform form {
+    display: flex;
+}
+
+.mainform form  input[type="text"]{
+    max-width: 278px;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    padding: 12px 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110.5%;
+    border: none;
+}
+
+.mainform{
+    padding-top: 40px;
+}
+.mainform form  input[type="submit"]{
+    height: 45px;
+    outline: none;
+    padding: 12px 14px;
+    border: none;
+    display: inline-block;
+    max-width: 131px;
+    width: 100%;
+    border-left: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #B91E31;
+
+}

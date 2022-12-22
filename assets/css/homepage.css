@@ -556,8 +556,8 @@ border-top: 2px solid #FFFFFF;
 
     .van_image h1 {
         padding-top: 60px;
-        font-size: 42px;
-        line-height: 52px;
+        font-size: 36px;
+        line-height: 42px;
     }
 
     .van_image_slider {
@@ -590,7 +590,7 @@ border-top: 2px solid #FFFFFF;
     }
 
     .van_image .van-img {
-        max-width: 600px;
+        max-width: 540px;
         width: 100%;
     }
 
@@ -614,13 +614,23 @@ border-top: 2px solid #FFFFFF;
     }
 
     .maincontent h1 {
-        font-size: 50px;
-        line-height: 66px;
+        font-size: 44px;
+        line-height: 60px;
         max-width: 600px;
     }
 
     .mainform, .maincontent h1 {
         padding-left: 15px;
+    }
+
+    .mainform form input[type="text"] {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .mainform form input[type="submit"] {
+        height: 40px;
+        font-size: 16px;
     }
 
 }

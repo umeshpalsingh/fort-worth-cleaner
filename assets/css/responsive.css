@@ -211,6 +211,21 @@
 
 @media (max-width: 1399px) {
 
+    #myBtn img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .pickup-section .delivery-form .form-box .input-box input, .address-box input {
+        height: 35px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pickup-section .delivery-form .address-box {
+        margin: 20px auto;
+    }
+
     .career-section .career-content h5 {
         margin-bottom: 20px;
         font-size: 35px;
@@ -239,9 +254,18 @@
         padding-left: 70px;
         padding-top: 80px;
     }
+    .service-section .service-wrapper .service-list h3 {
+        margin-bottom: 40px;
+        font-size: 36px;
+        line-height: 40px;
+    }
     .service-section .service-wrapper .service-box h2 {
-        font-size: 48px;
-        line-height: 58px;
+        font-size: 44px;
+        line-height: 54px;
+    }
+
+    .service-section .service-wrapper .service-list .book-btn {
+        max-width: 230px;
     }
 
     .fort-container {
@@ -275,7 +299,7 @@
     }
 
     .footer .footer-box .footer-logo img {
-        max-width: 320px;
+        max-width: 300px;
     }
 
     .footer .footer-box .footer-wrapper .wrapper-box h5 {
@@ -399,27 +423,33 @@
     }
 
     .testimonial-section .testimonial-card .review {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .testimonial-section .testimonial-card h3 {
-        margin-top: 115px;
+        margin-top: 100px;
         line-height: 28px;
+        font-size: 20px;
     }
 
     .testimonial-section .testimonial-card .review-img img {
-        max-width: 115px;
+        max-width: 110px;
         width: 100%;
     }
 
+    .testimonial-section .testimonial-card .review-detail p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     .pickup {
-        padding: 30px 0 38px;
+        padding: 25px 0 30px;
     }
 
     .pickup p {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 28px;
     }
 
     .quality-section .quality-box .mySlider .quality-point .quality-icon {
@@ -647,9 +677,10 @@
     }
 
     .quality-section .quality-box h3 {
-        font-size: 34px;
-        padding: 30px 0 50px;
+        font-size: 30px;
+        padding: 22px 0 30px;
     }
+
 
     .service-section .service-wrapper .service-box {
         max-width: 590px;
@@ -695,12 +726,17 @@
     }
 
     .quality-section .quality-box .mySlider .quality-point p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 20px;
     }
 
-    .quality-section .quality-box {
-        min-height: 570px;
+    .quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet {
+        height: 12px;
+        width: 12px;
+    }
+
+    .quality-icon img {
+        max-width: 110px;
     }
 
     .award img {

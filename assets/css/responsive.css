@@ -250,7 +250,7 @@
     }
 
     .award img {
-        max-width: 270px;
+        max-width: 240px;
     }
     
     .navbar .call-link {
@@ -342,9 +342,14 @@
         align-items: flex-start;
     }
 
+    .about-section h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
     .about-section p {
-        font-size: 22px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 36px;
     }
 
     .about-section .about-box p, .about-section .about-box ul li {
@@ -354,6 +359,18 @@
 
     .about-section .about-box ul {
         left: 35px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .about-section .about-box h5 {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .about-section .about-box {
+        padding: 30px 40px 45px;
     }
 
     .about-heading h1 {
@@ -361,18 +378,18 @@
     }
 
     .inspection-section h3 {
-        font-size: 38px;
-        line-height: 56px;
+        font-size: 36px;
+        line-height: 45px;
     }
 
     .inspection-section h6 {
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 35px;
     }
 
     .inspection-list ul li {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 36px;
     }
 
@@ -409,12 +426,9 @@
         margin-bottom: 15px;
     }
 
-    .quality-section .quality-box h3 {
-        padding: 40px 0 60px;
-    }
-
     .quality-section .quality-box {
-        min-height: 600px;
+        min-height: auto;
+        max-height: 480px;
     }
 
     .pickup-heading h1 {
@@ -432,6 +446,47 @@
     .banner-section {
         height: 350px;
     }
+
+    .testimonial-section .testimonial-card {
+        max-width: 340px;
+    }
+
+    .quality-section .quality-box h3 {
+        font-size: 32px;
+        line-height: 36px;
+        padding: 25px 0;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .quality-section .quality-box .mySlider {
+        padding-bottom: 70px;
+    }
+
+    .quality-section .quality-box .mySlider .swiper-pagination .swiper-pagination-bullet {
+        height: 14px;
+        width: 14px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point .quality-icon {
+        margin-bottom: 10px;
+    }
+
+    .testimonial-section h2 {
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 390px;
+        margin-bottom: 30px;
+    }
+
+    .pickup-section .delivery-form .form-box .input-box label, .address-box label, .form-2 .form-2-box p {  
+        font-size: 18px;
+        line-height: 26px;
+    }
+
 }
 
 @media (max-width: 1299px) {

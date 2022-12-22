@@ -5,9 +5,6 @@
 }
 
 @media (max-width: 1690px) {
-    .service-section .service-wrapper .service-list {
-        padding-left: 35px;
-    } 
     .pickup-heading {
         position: absolute;
         top: 0;
@@ -72,37 +69,6 @@
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 42px;
-    }
-
-    .service-section .service-wrapper .service-list h3 {
-        margin-bottom: 45px;
-        font-size: 38px;
-        line-height: 42px;
-    }
-
-    .service-section .service-wrapper .service-list ol li {
-        font-size: 28px;
-        line-height: 44px;
-    }
-
-    .service-section .service-wrapper .service-list .book-btn {
-        margin-top: 35px;
-    }
-
-    .service-section .service-wrapper .service-box {
-        max-width: 900px;
-        padding-top: 185px;
-        padding-left: 175px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        padding-left: 70px;
-        padding-top: 115px;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 54px;
-        line-height: 64px;
     }
 
     .quality-section .quality-box h3 {
@@ -236,10 +202,6 @@
 }
 
 @media (max-width: 1428px) {
-    .service-section .service-wrapper .service-box {
-        max-width: 800px;
-    }
-
     .about-section p {
         font-size: 26px;
     }
@@ -287,11 +249,6 @@
         height: 13px;
     }
 
-    .service-section .service-wrapper .service-list ol li {
-        font-size: 24px;
-        line-height: 38px;
-    }
-
     #myBtn img {
         width: 35px;
         height: 35px;
@@ -322,36 +279,6 @@
     .pickup-heading {
         padding-top: 85px;
         padding-left: 90px;
-    }
-
-    .service-section .service-wrapper .service-box {
-        max-width: 700px;
-        padding-top: 165px;
-        padding-left: 155px;
-        height: 460px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        padding-left: 70px;
-        padding-top: 80px;
-    }
-    .service-section .service-wrapper .service-list h3 {
-        margin-bottom: 30px;
-        font-size: 32px;
-        line-height: 36px;
-    }
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 38px;
-        line-height: 45px;
-        max-width: 390px;
-    }
-
-    .service-section .service-wrapper .service-list .book-btn {
-        max-width: 200px;
-        height: 40px;
-        font-size: 16px;
-        margin-top: 30px;
-        line-height: 40px;
     }
 
     .fort-container {
@@ -609,7 +536,7 @@
     .testimonial-section h2 {
         font-size: 32px;
         line-height: 36px;
-        max-width: 390px;
+        max-width: 340px;
         margin-bottom: 30px;
     }
 
@@ -629,9 +556,6 @@
 }
 
 @media (max-width: 1299px) {
-    .service-section .service-wrapper .service-box {
-        max-width: 680px;
-    }
 
     .pickup-heading {
         padding-top: 75px;
@@ -729,19 +653,20 @@
     }
 
     .footer .footer-box .footer-wrapper .wrapper-box h5 {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 26px;
         margin-bottom: 20px;
     }
 
     .footer .footer-box .footer-wrapper .wrapper-box ul li a {
-        font-size: 17px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 22px;
     }
 
     .footer .footer-box .footer-wrapper .box-3 .footer-label {
-        font-size: 17px;
+        font-size: 16px;
         max-width: 200px;
+        line-height: 22px;
     }
 
     .social-links {
@@ -767,8 +692,8 @@
     }
 
     .about-section .about-box p, .about-section .about-box ul li {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .pickup {
@@ -776,8 +701,8 @@
     }
 
     .pickup p {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 26px;
     }
 
     .about-heading h1 {
@@ -790,34 +715,6 @@
         padding: 22px 0 30px;
     }
 
-
-    .service-section .service-wrapper .service-box {
-        max-width: 590px;
-        padding-left: 120px;
-        padding-top: 145px;
-        height: 430px;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 42px;
-        line-height: 52px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        padding-left: 44px;
-        padding-top: 70px;
-    }
-
-    .service-section .service-wrapper .service-list ol li {
-        font-size: 24px;
-        line-height: 42px;
-    }
-
-    .service-section .service-wrapper .service-list h3 {
-        margin-bottom: 45px;
-        font-size: 32px;
-        line-height: 38px;
-    }
 
     .inspection-list {
         max-width: 470px;
@@ -835,7 +732,7 @@
     }
 
     .quality-section .quality-box .mySlider .quality-point p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 20px;
     }
 
@@ -849,7 +746,7 @@
     }
 
     .award img {
-        max-width: 230px;
+        max-width: 180px;
     }
 
     .testimonial-section .testimonial-card h3 {
@@ -872,7 +769,7 @@
 
     .about-section .about-box {
         height: 100%;
-        padding: 30px 30px 60px;
+        padding: 30px 30px 40px;
     }
 
     .about-section .about-box h5 {
@@ -892,8 +789,17 @@
     }
 
     .banner-section .banner-heading {
-        font-size: 50px;
-        line-height: 65px;
+        font-size: 42px;
+        line-height: 45px;
+    }
+
+    .footer .footer-box .footer-wrapper .wrapper-box ul li a img {
+        width: 20px;
+        margin-top: 4px;
+    }
+
+    .testimonial-section .testimonial-card {
+        max-width: 275px;
     }
 
 
@@ -912,13 +818,6 @@
         margin-bottom: 10px;
     }
 
-    .service-section .service-wrapper .service-box {
-        max-width: 555px;
-        padding-left: 110px;
-        padding-top: 130px;
-        height: 400px;
-    }
-
     .quality-section .quality-box .mySlider .quality-point p {
         font-size: 16px;
         line-height: 24px;
@@ -935,6 +834,24 @@
 }
 
 @media (max-width: 991px) {
+
+    .select-wrapper {
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .select-wrapper .select-box label {
+        margin-bottom: 0;
+    }
+
+    .testimonial-section .testimonial-card {
+        max-width: 320px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        line-height: 28px;
+    }
 
     .career-section .career-content p {
         max-width: 100%;
@@ -1049,34 +966,6 @@
         padding-left: 10px;
     }
 
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 36px;
-        line-height: 42px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 10px;
-    }
-
-
-    .service-section .service-wrapper .service-list h3 {
-        margin-bottom: 25px;
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-    .service-section .service-wrapper .service-list ol li {
-        font-size: 24px;
-        line-height: 38px;
-    }
-
-    .service-section .service-wrapper .service-list .book-btn {
-        margin-top: 20px;
-        max-width: 230px;
-    }
-
     .fort-container {
         column-gap: 50px;
     }
@@ -1088,13 +977,6 @@
 
     .award img {
         max-width: 180px;
-    }
-
-    .service-section .service-wrapper .service-box {
-        max-width: 430px;
-        padding-left: 60px;
-        padding-top: 130px;
-        height: 360px;
     }
 
     .pickup-flex {
@@ -1127,6 +1009,28 @@
 
 @media (max-width: 767px) {
 
+    .quality-icon img {
+        max-width: 140px;
+    }
+
+    .quality-section .quality-box .mySlider .quality-point p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .quality-section .quality-box .mySlider {
+        padding-bottom: 80px;
+    }
+
+    .inspection-list ul {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-section .testimonial-card .review {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
     .career-section .career-content p {
         font-size: 16px;
         line-height: 30px;
@@ -1152,28 +1056,9 @@
         width: 270px;
     }
 
-    .service-section .service-wrapper {
-        flex-wrap: wrap;
-    }
-
-    .service-section .service-wrapper .service-box {
-        max-width: 100%;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 42px;
-        line-height: 52px;
-    }
-
     .about-heading h1 {
         font-size: 35px;
         line-height: 45px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        max-width: 554px;
-        width: 100%;
-        margin: 0 auto;
     }
 
     .footer-wrapper {
@@ -1191,15 +1076,6 @@
     .footer-wrapper .box-3 {
         width: 250px;
     }
-    .service-box h2 {
-        font-size: 38px;
-        line-height: 40px;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 40px;
-        line-height: 54px;
-    }
 
     .inspection-list ul li {
         margin-bottom: 0px;
@@ -1208,12 +1084,6 @@
     .pickup p {
         font-size: 20px;
         line-height: 28px;
-    }
-
-    .service-section .service-wrapper .service-box {
-        padding-left: 60px;
-        padding-top: 130px;
-        height: 350px;
     }
 
     .about-flex img {
@@ -1255,6 +1125,7 @@
         font-size: 30px;
         line-height: 36px;
     }
+
     
 }
 
@@ -1269,8 +1140,8 @@
     }
 
     .about-heading h1 {
-        font-size: 72px;
-        line-height: 82px;
+        font-size: 60px;
+        line-height: 75px;
     }
 
     .pickup-heading {
@@ -1329,8 +1200,8 @@
     }
 
     .about-heading h1 {
-        font-size: 65px;
-        line-height: 74px;
+        font-size: 50px;
+        line-height: 66px;
     }
 
     .footer .footer-box {
@@ -1351,15 +1222,6 @@
     .about-section h3 {
         font-size: 26px;
         line-height: 34px;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 42px;
-        line-height: 48px;
-    }
-
-    .service-section .service-wrapper .service-list {
-        padding-left: 20px;
     }
 
     .quality-section .quality-box {
@@ -1478,9 +1340,7 @@
         max-width: 150px;
     }
 
-    .service-section .service-wrapper .service-box {
-        padding-left: 30px;
-    }
+
 
     .quality-section .quality-box h3 {
         font-size: 24px;
@@ -1490,11 +1350,6 @@
     .inspection-list ul li {
         font-size: 16px;
         line-height: 32px;
-    }
-
-    .service-section .service-wrapper .service-box h2 {
-        font-size: 35px;
-        line-height: 45px;
     }
 
 

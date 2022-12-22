@@ -60,7 +60,7 @@
         padding-top: 10px;
     }
     .footer .footer-box .footer-logo img {
-        max-width: 355px;
+        max-width: 345px;
         width: 100%;
     }
 
@@ -107,11 +107,12 @@
 
     .quality-section .quality-box h3 {
         font-size: 38px;
+        padding: 45px 0;
     }
 
     .about-section p {
-        font-size: 28px;
-        line-height: 42px;
+        font-size: 26px;
+        line-height: 40px;
     }
 
     .about-section .about-box h5 {
@@ -185,6 +186,53 @@
         margin-bottom: 60px;
     }
 
+    .pickup-section .form-2 button[type="submit"] {
+        max-width: 240px;
+        margin: 40px auto 0;
+    }
+
+    .pickup-section .form-2 .form-2-box .radio-box .other-option input {
+        line-height: 20px;
+    }
+
+    .pickup-section .form-2 .form-2-box .radio-box .other-option {
+        max-width: 250px;
+    }
+
+    .pickup-section .delivery-form .form-box .input-box input, .address-box input {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .testimonial-section .testimonial-card {
+        max-width: 390px;
+    }
+
+    .testimonial-section .swiper .swiper-pagination-bullet {
+        width: 16px;
+        height: 16px;
+    }
+
+    .banner-section {
+        height: 420px;
+    }
+
+    .banner-section .banner-heading {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form input {
+        max-width: 205px;
+    }
+
+    .footer .footer-box .footer-wrapper .box-3 .footer-form button {
+        max-width: 120px;
+    }
+
+    .quality-section .quality-box {
+        min-height: auto;
+    }
 }
 
 @media (max-width: 1428px) {
@@ -210,6 +258,39 @@
 }
 
 @media (max-width: 1399px) {
+
+    .pickup-section h3 {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .pickup-section h6 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .pickup-section .delivery-form .form-box .input-box label, .address-box label, .form-2 .form-2-box p {
+        margin-bottom: 5px;
+    }
+
+    .pickup-section .form-2 button[type="submit"] {
+        max-width: 220px; 
+    }
+
+    .banner-section .banner-heading {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .testimonial-section .swiper .swiper-pagination-bullet {
+        width: 13px;
+        height: 13px;
+    }
+
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 24px;
+        line-height: 38px;
+    }
 
     #myBtn img {
         width: 35px;
@@ -247,7 +328,7 @@
         max-width: 700px;
         padding-top: 165px;
         padding-left: 155px;
-        height: 480px;
+        height: 460px;
     }
 
     .service-section .service-wrapper .service-list {
@@ -255,17 +336,22 @@
         padding-top: 80px;
     }
     .service-section .service-wrapper .service-list h3 {
-        margin-bottom: 40px;
-        font-size: 36px;
-        line-height: 40px;
+        margin-bottom: 30px;
+        font-size: 32px;
+        line-height: 36px;
     }
     .service-section .service-wrapper .service-box h2 {
-        font-size: 44px;
-        line-height: 54px;
+        font-size: 38px;
+        line-height: 45px;
+        max-width: 390px;
     }
 
     .service-section .service-wrapper .service-list .book-btn {
-        max-width: 230px;
+        max-width: 200px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 40px;
     }
 
     .fort-container {
@@ -274,13 +360,18 @@
     }
 
     .award img {
-        max-width: 240px;
+        max-width: 200px;
     }
     
     .navbar .call-link {
-        margin-left: 25px;
-        font-size: 20px;
-        line-height: 28px;
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .navbar .call-link img {
+        margin-right: 6px;
+        width: 26px;
     }
 
     .navbar .navbar-nav li {
@@ -288,29 +379,37 @@
     }
 
     .navbar .navbar-nav li a {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .navbar .sign-up {
-        padding: 10px 24px;
+        padding: 7px 18px;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 22px;
     }
 
     .footer .footer-box .footer-logo img {
-        max-width: 300px;
+        max-width: 280px;
     }
 
     .footer .footer-box .footer-wrapper .wrapper-box h5 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .footer .footer-box .footer-logo {
+        padding-top: 15px;
     }
 
     .footer .footer-box .footer-wrapper .wrapper-box ul li a {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .footer-wrapper .box-1 {
+        width: 180px;
     }
 
     .footer .footer-box .footer-wrapper .box-3 .footer-label {
@@ -319,21 +418,23 @@
     }
 
     .footer .footer-box .footer-wrapper .box-3 .footer-form input {
-        max-width: 210px;
-        font-size: 16px;
-        height: 40px;
+        max-width: 165px;
+        font-size: 15px;
+        height: 35px;
+        padding: 10px;
+        padding-right: 0;
     }
 
     .footer .footer-box .footer-wrapper .box-3 .footer-form button {
-        max-width: 115px;
-        font-size: 16px;
-        height: 40px;
+        max-width: 100px;
+        font-size: 15px;
+        height: 35px;
         padding: 0;
-        line-height: 40px;
+        line-height: 35px;
     }
 
     .footer-wrapper .box-3 {
-        width: 300px;
+        width: 270px;
     }
 
     .social-links {
@@ -359,7 +460,7 @@
     }
 
     .footer-wrapper .box-2 {
-        width: 240px;
+        width: 220px;
     }
 
     .footer .footer-box .footer-wrapper .box-2 ul li a {
@@ -373,24 +474,24 @@
 
     .about-section p {
         font-size: 20px;
-        line-height: 36px;
+        line-height: 32px;
     }
 
     .about-section .about-box p, .about-section .about-box ul li {
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 18px;
+        line-height: 30px;
     }
 
     .about-section .about-box ul {
         left: 35px;
-        max-width: 400px;
+        max-width: 430px;
         width: 100%;
     }
 
     .about-section .about-box h5 {
-        font-size: 36px;
-        line-height: 40px;
-        margin-bottom: 25px;
+        font-size: 34px;
+        line-height: 38px;
+        margin-bottom: 22px;
     }
 
     .about-section .about-box {
@@ -398,7 +499,7 @@
     }
 
     .about-heading h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .inspection-section h3 {
@@ -413,8 +514,8 @@
     }
 
     .inspection-list ul li {
-        font-size: 22px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .testimonial-section .testimonial-card .review-detail {
@@ -516,6 +617,14 @@
         font-size: 18px;
         line-height: 26px;
     }
+
+    .testimonial-section {
+        padding: 50px 0 0;
+    }
+
+    .card-section {
+        padding: 30px 0 0;
+     }
 
 }
 
@@ -811,8 +920,8 @@
     }
 
     .quality-section .quality-box .mySlider .quality-point p {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .testimonial-section .testimonial-card .review {
@@ -1296,6 +1405,7 @@
 
 @media (max-width: 428px) {
 
+
     .career-section .career-content .apply-now {
         max-width: 272px;
         height: 40px;
@@ -1383,8 +1493,8 @@
     }
 
     .service-section .service-wrapper .service-box h2 {
-        font-size: 40px;
-        line-height: 46px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
 

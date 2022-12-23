@@ -89,6 +89,7 @@ var swiper = new Swiper(".myFirstSwiper", {
 var swiper = new Swiper(".mySlider", {
   slidesPerView: 3,
   spaceBetween: 80,
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

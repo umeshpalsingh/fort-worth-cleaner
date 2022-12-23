@@ -28,7 +28,13 @@ function topFunction() {
 /*------------------------------*/
 
 
-var swiper = new Swiper(".homeSlider", {});
+var swiper = new Swiper(".homeSlider", {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  }
+});
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,

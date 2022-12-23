@@ -54,7 +54,7 @@ a {
 .navbar {
     --bs-navbar-padding-y: 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
-    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+    background-color: #FFFFFF;
 }
 
 .navbar .navbar-brand {
@@ -532,7 +532,7 @@ a {
     /* width: 430px; */
     max-width: 430px;
     width: 100%;
-    /* height: 460px; */
+    height: 460px;
     position: relative;
     margin: 0 auto;
 }
@@ -579,8 +579,10 @@ a {
 .testimonial-section .testimonial-card .review-detail {
     padding: 0 40px;
     display: flex;
-    justify-content: space-between;
+    gap: 110px;
     margin-bottom: 24px;
+    position: absolute;
+    bottom: 0;
 }
 
 .testimonial-section .testimonial-card .review-detail p {

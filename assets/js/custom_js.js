@@ -90,6 +90,10 @@ var swiper = new Swiper(".mySlider", {
   slidesPerView: 3,
   spaceBetween: 80,
   loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

@@ -215,6 +215,7 @@
     }
     .home_slider{
         display: flex;
+        justify-content: end;
     }
     .van_image h1{
         font-weight: 600;

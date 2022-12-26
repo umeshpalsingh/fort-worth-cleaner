@@ -10,9 +10,9 @@
         max-width: 900px;
         clip-path: polygon(15% 0%, 100% 0, 100% 100%, 9% 100%, 0 82%);
     }
-    .home_slider {
+    /* .home_slider {
         justify-content: end;
-    }    
+    }     */
  }
 
 

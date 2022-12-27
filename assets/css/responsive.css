@@ -1796,9 +1796,8 @@
 
 @media (max-width: 575px) {
 
-    .maincontent h1 {
-        font-size: 32px;
-        line-height: 45px;
+    .navbar .navbar-brand img {
+        width: 110px;
     }
 
     .mainconentbottom .leftconet h1 {
@@ -1911,9 +1910,9 @@
     }
 
     .service-section .service-wrapper .service-box h2 {
-        font-size: 30px;
-        line-height: 42px;
-        max-width: 290px;
+        font-size: 40px;
+        line-height: 54px;
+        max-width: 100%;
     }
     
     .van_image_slider {
@@ -1932,6 +1931,8 @@
         .maincontent h1 {
             position: relative;
             bottom: 20px;
+            font-size: 40px;
+            line-height: 54px;
         }
     
         .mainform {
@@ -1939,7 +1940,7 @@
         }
     
         .mainform form input[type="email"] {
-            max-width: 220px;
+            max-width: 260px;
         }
     
         .mainconentbottom {
@@ -1967,9 +1968,34 @@
             font-size: 18px;
             line-height: 22px;
         }
+
+        .service-section .service-wrapper .service-box {
+            height: 300px;
+        }
 }
 
 @media (max-width: 525px) {
+
+    .service-section .service-wrapper .service-box {
+        padding-top: 124px;
+        padding-left: 20px;
+        height: 250px;
+    }
+
+    .service-section .service-wrapper .service-box h2 {
+        font-size: 36px;
+        max-width: 420px;
+        bottom: 28px;
+    }
+
+    .van_image .van-img {
+        max-width: 420px;
+        width: 100%;
+    }
+
+    .van_image h1 {
+        padding-bottom: 0px;
+    }
 
     .mainconentbottom .leftconet h1 {
         font-size: 20px;
@@ -1981,11 +2007,12 @@
     }
 
     .maincontent h1 {
-        font-size: 24px;
-        line-height: 32px;
-        bottom: 30px;
-        max-width: 400px;
+        font-size: 32px;
+        line-height: 45px;
+        bottom: 0;
+        max-width: 320px;
     }
+
     .mainform form input[type="email"] {
         max-width: 260px;
         height: 36px;
@@ -2005,22 +2032,27 @@
 
 .mainform {
     padding-top: 0;
+    margin-top: 35px;
     position: relative;
     bottom: 10px;
 }
 
 .mainform form input[type="email"] {
-    max-width: 190px;
+    max-width: 200px;
 }
 
 .mainconentbottom {
     padding-left: 0px;
 }
  .mainconentbottom .leftconet h1 {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 26px;
  }
+
  .mainconentbottom .leftconet p {
     font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .rating ul li img {
@@ -2028,12 +2060,21 @@
 }
 
 .rating span {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
-.van_image_slider::after, .mainconentbottom {
-    height: 90px;
+.rating {
+    padding-left: 15px;
+}
+
+.rating ul {
+    gap: 7px;
+}
+
+.mainconentbottom {
+    height: 60px;
+    left: 0px;
 }
 
 .mainform, .maincontent h1 {
@@ -2042,6 +2083,10 @@
 }
 
 @media (max-width: 428px) {
+
+    .van_image .van-img {
+        max-width: 375px;
+    }
 
     .about-section .about-box h5 {
         font-size: 30px;
@@ -2155,17 +2200,9 @@
         .van_image_slider {
             height: 260px;
         }
-        .maincontent h1 {
-            font-size: 22px;
-            line-height: 28px;
-        }
     
         .mainform form input[type="email"] {
             max-width: 170px;
-        }
-    
-        .mainconentbottom .leftconet h1 {
-            font-size: 18px;
         }
     
         .mainconentbottom .leftconet p {
@@ -2181,17 +2218,22 @@
             line-height: 20px;
         }
     
-        .van_image_slider::after, .mainconentbottom {
-            height: 75px;
+        .mainconentbottom {
+            height: 50px;
         }
     
         .van_image h1 {
         font-size: 28px;
         line-height: 34px;
         }
+
+        .mainform {
+            margin-top: 25px;
+        }
     
         .mainconentbottom .leftconet h1 {
-            line-height: 35px;
+            font-size: 16px;
+            line-height: 22px;
         }
             .service-section .service-wrapper .service-box h2 {
             font-size: 35px;
@@ -2203,8 +2245,8 @@
         }           
 
         .maincontent h1 {
-            font-size: 22px;
-            line-height: 34px;
+            font-size: 28px;
+            line-height: 40px;
         }
 }
 

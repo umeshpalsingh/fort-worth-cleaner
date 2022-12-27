@@ -260,6 +260,9 @@
         max-width: 870px;
         position: relative;
         left: 40px;
+        animation-name: backInRight;
+        animation-duration: 2s;
+        transition: all .2s;
     }
 
     .hh {

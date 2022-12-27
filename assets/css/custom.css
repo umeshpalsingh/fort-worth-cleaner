@@ -49,18 +49,23 @@ a {
 /*----------------- Navigation CSS Starts ---------------------*/
 
 .margin-top {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .navbar {
     --bs-navbar-padding-y: 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
+    transition: all .4s ease;
 }
 
 .navbar .navbar-brand {
     margin: 0;
     padding: 1px 0;
+}
+
+.navbar .navbar-brand img {
+    width: 130px;
 }
 
 .navbar .navbar-nav li a.active  {
@@ -77,14 +82,37 @@ a {
     font-weight: 400;
     line-height: 30px;
     color: #2D3970;
+    transition: all .4s;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #B91E31;
 }
 
 .navbar .sign-up {
     background: #B91E31;
-    padding: 12px 28px;
+    /* padding: 12px 28px; */
+    width: 125px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
     color: #FFFFFF;
     white-space: nowrap;
     display: inline-block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .4s;
+}
+
+.navbar .sign-up:hover {
+    background-color: #2D3970;
+}
+
+
+
+.rating ul li {
+    margin-right: 5px;
 }
 
 .navbar .call-link {
@@ -145,6 +173,7 @@ a {
     border-radius: 5px;
     outline: none;
     border: none;
+    height: 32px;
 }
 
 .select-wrapper {
@@ -305,6 +334,11 @@ a {
     line-height: 110.5%;
     text-align: center;
     color: #FFFFFF;
+    transition: all .4s;
+}
+
+.footer .footer-box .footer-wrapper .box-3 .footer-form button:hover {
+    background-color: #2D3970;
 }
 
 .social-links {
@@ -525,7 +559,7 @@ a {
     max-width: 416px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .testimonial-section .testimonial-card {
@@ -536,6 +570,24 @@ a {
     height: 460px;
     position: relative;
     margin: 0 auto;
+    transition: all .5s ease-in;
+}
+
+.testimonial-section .testimonial-card:hover {
+    background-color: #B91E31;
+    cursor: pointer;
+}
+
+.testimonial-section .testimonial-card:hover h3 {
+    color: #FFFFFF;
+}
+
+.testimonial-section .testimonial-card:hover .review {
+    color: #FFFFFF;
+}
+
+.testimonial-section .testimonial-card:hover .review-detail p {
+    color: #FFFFFF;
 }
 
 .testimonial-section .testimonial-card .review-img {
@@ -554,6 +606,7 @@ a {
     text-align: center;
     margin-top: 120px;
     margin-bottom: 5px;
+    transition: all .4s ease-in;
 }
 
 .testimonial-section .testimonial-card .stars {
@@ -575,6 +628,7 @@ a {
     margin: 0 auto;
     margin-bottom: 60px;
     max-width: 275px;
+    transition: all .4s ease-in;
 }
 
 .testimonial-section .testimonial-card .review-detail {
@@ -591,6 +645,7 @@ a {
     font-size: 18px;
     font-weight: 300;
     line-height: 27px;
+    transition: all .4s ease-in;
 }
 
 .testimonial-section .swiper .swiper-pagination-bullet {

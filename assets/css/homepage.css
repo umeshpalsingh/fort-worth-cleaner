@@ -24,7 +24,7 @@
     color: #B91E31;
     font-weight: 400;
     font-size: 25px;
-    line-height: 38px;
+    line-height: 25px;
     text-align: center;
     margin-bottom: 47px;
 }
@@ -65,7 +65,7 @@
     background-size: cover;
     min-height: 634px;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     position: relative;
 }
 
@@ -179,8 +179,14 @@
     margin-bottom: 59px;
     font-weight: 700;
     font-size: 40px;
-    line-height: 44px;  
-    text-decoration-line: underline;
+    line-height: 38px;
+    border-bottom: 2px solid;
+    /* text-decoration-line: underline; */
+    display: inline-block;
+}
+
+.service-list ol {
+    padding: 0px;
 }
 
 .service-section .service-wrapper .service-list ol li {
@@ -188,7 +194,9 @@
     font-weight: 700;
     line-height: 45px;
     text-align: left;
+    margin-bottom: 7px;
     color: #2D3970;
+    list-style: none;
 }
 
 .service-section .service-wrapper .service-list .book-btn {
@@ -199,10 +207,15 @@
     line-height: 45px;
     text-align: center;
     display: inline-block;
-    margin-top: 53px;
+    margin-top: 40px;
     max-width: 265px;
     width: 100%;
     height: 45px;
+    transition: all .4s;
+}
+
+.service-section .service-wrapper .service-list .book-btn:hover {
+    background-color: #2D3970;
 }
 
 
@@ -224,7 +237,9 @@
         color: #2D3970;
         text-align: center;
         font-style: italic;
-        padding-top: 15px;
+        position: relative;
+        left: 58px;
+        bottom: 15px;
     }
 
     .van_image_slider {
@@ -242,8 +257,9 @@
     }
 
     .van_image .van-img {
+        max-width: 870px;
         position: relative;
-        left: 50px;
+        left: 40px;
     }
 
     .hh {
@@ -252,7 +268,7 @@
         z-index: -1111;
     }
 
-    .van_image_slider::after {
+    /* .van_image_slider::after {
         position: absolute;
         content: "";
         background-color: #ff000080;
@@ -260,19 +276,19 @@
         bottom: 0px;
         z-index: 1;
         width: 100%;
-    }
+    } */
 
-    .overlap_slider .swiper-slide::before {
+    /* .overlap_slider .swiper-slide::before {
         position: absolute;
         content: "";
-        background-color: #2d3970b3;
+        background-color: #2d39703b;
         bottom: 0px;
         width: 100%;
         right: 0;
         z-index:1;
         height: auto;
         top: 0;
-    }
+    } */
 
 .van_image_slider h1 {
     font-weight: 700;
@@ -298,17 +314,16 @@
 .homeSlider{
     position: relative;
 }
-.mainconentbottom{
+.mainconentbottom {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     right: 0;
+    left: 160px;
     height: 119px;
-    width: 100%;
     z-index: 1100;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .mainconentbottom .leftconet h1{
@@ -321,17 +336,17 @@
 }
 .mainconentbottom .leftconet p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px;
-color: #FFFDFD;
-border-top: 2px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFDFD;
+    border-top: 2px solid #FFFFFF;
 }
 .rating{
     display: flex;
     align-items: center;
-    padding-left: 17px;
+    padding-left: 25px;
 }
 .rating ul {
     display: flex;
@@ -359,11 +374,11 @@ border-top: 2px solid #FFFFFF;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.maincontent{
-    max-width: 585px;
+.maincontent {
+    max-width: 600px;
     width: 100%;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 16px;
 }
 
 .maincontent h1{
@@ -391,6 +406,7 @@ border-top: 2px solid #FFFFFF;
     font-size: 18px;
     line-height: 110.5%;
     border: none;
+    transition: all .4s;
 }
 
 .mainform{
@@ -413,7 +429,11 @@ border-top: 2px solid #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     background: #B91E31;
+    transition: all .4s;
+}
 
+.mainform form  input[type="submit"]:hover {
+    background-color: #2D3970;
 }
 
 .height-full {
@@ -422,6 +442,23 @@ border-top: 2px solid #FFFFFF;
 
 .mobileview {
     display: none;
+}
+
+
+/* Van Image Custom Animation */
+
+@keyframes slidevan {
+    0% {
+
+    }
+
+    50% {
+
+    }
+
+    100% {
+
+    }
 }
 
 

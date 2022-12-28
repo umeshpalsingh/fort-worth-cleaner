@@ -460,7 +460,7 @@
 @keyframes slidevan {
     0% {
         transform: translateX(1000px);
-        z-index: 9999;
+        z-index: 99;
     }
 
     100% {

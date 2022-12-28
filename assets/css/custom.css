@@ -892,6 +892,14 @@ a {
     line-height: 27px;
 }
 
+.pickup-section .delivery-form .form-box .input-box input:focus, .address-box input:focus {
+    border-color: #2D3970;
+    box-shadow: 0 0 0 0.15rem rgba(45, 57, 112, .2);
+    transition: all .2s;
+}
+
+
+
 .pickup-section .delivery-form .address-box {
     max-width: 643px;
     width: 100%;

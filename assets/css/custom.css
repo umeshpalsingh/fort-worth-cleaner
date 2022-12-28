@@ -582,6 +582,7 @@ a {
     background-color: #2D3970;
     cursor: pointer;
     border: 1px solid #2D3970;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .testimonial-section .testimonial-card:hover h3 {

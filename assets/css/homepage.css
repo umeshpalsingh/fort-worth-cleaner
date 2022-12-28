@@ -458,10 +458,12 @@
 @keyframes slidevan {
     0% {
         transform: translateX(1000px);
+        z-index: 9999;
     }
 
     100% {
         transform: translateX(0px);
+        z-index: 1;
     }
 }
 

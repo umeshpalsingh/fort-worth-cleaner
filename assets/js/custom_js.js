@@ -32,8 +32,9 @@ function topFunction() {
 
 var swiper = new Swiper(".homeSlider", {
   loop: true,
+  speed: 1000,
   autoplay: {
-    delay: 5000,
+    delay: 4000,
     disableOnInteraction: false,
   }
 });
@@ -42,6 +43,11 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 66,
   loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -93,6 +99,7 @@ var swiper = new Swiper(".mySlider", {
   slidesPerView: 3,
   spaceBetween: 80,
   loop: true,
+  speed: 1000,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,

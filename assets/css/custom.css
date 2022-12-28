@@ -898,8 +898,6 @@ a {
     transition: all .2s;
 }
 
-
-
 .pickup-section .delivery-form .address-box {
     max-width: 643px;
     width: 100%;
@@ -987,4 +985,30 @@ a {
 
 .pickup-section .form-2 button[type="submit"]:hover {
     background-color: #2D3970;
+}
+
+#gallaryModal {
+    animation-name: showImage;
+    animation-duration: .5s;
+    transition: all .5s;
+}
+
+
+.modal_signup .closemodal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@keyframes showImage {
+    0% {
+        opacity: 0.5;
+        transform: scale(.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }

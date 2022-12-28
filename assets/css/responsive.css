@@ -434,6 +434,15 @@
 }
 
 @media (max-width: 1399px) {
+
+    .inspection-img .guarante {
+        left: 210px;
+        top: 290px;
+    }
+
+    .inspection-img .guarante img {
+        width: 250px;
+    }
     
     .navbar .navbar-brand img {
         width: 120px;
@@ -1065,11 +1074,11 @@
         padding: 22px 0 30px;
     }
 
-
     .inspection-list {
         max-width: 470px;
         width: 100%;
-        padding-top: 5px;
+        padding-top: 10px;
+        padding-left: 40px;
     }
 
     .inspection-list ul li {
@@ -1152,7 +1161,6 @@
     .testimonial-section .testimonial-card {
         max-width: 275px;
     }
-
     
     .service-section .service-wrapper .service-box {
         max-width: 590px;
@@ -1293,6 +1301,15 @@
 }
 
 @media (max-width: 991px) {
+
+    .inspection-img .guarante img {
+        width: 220px;
+    }
+
+    .inspection-img .guarante {
+        left: 270px;
+        top: 330px;
+    }
 
     .mainconentbottom {
         height: 90px;
@@ -1450,6 +1467,10 @@
         width: 220px;
     }
 
+    .inspection-section {
+        padding-bottom: 0px;
+    }
+
     .inspection-section h3 {
         font-size: 36px;
         line-height: 48px;
@@ -1462,11 +1483,14 @@
     .inspection-img {
         width: 100%;
         text-align: center;
+        margin-bottom: 20px;
+        
     }
 
     .inspection-list {
-        margin: 0 auto;
+        margin: 20px auto;
         padding-top: 0;
+        padding-left: 60px;
     }
 
     .inspection-list ul {
@@ -1642,7 +1666,7 @@
     }
 
     .inspection-list ul li {
-        margin-bottom: 0px;
+        margin-bottom: 7px;
     }
 
     .pickup p {
@@ -1811,6 +1835,20 @@
 }
 
 @media (max-width: 575px) {
+
+    .inspection-img .guarante {
+        right: 0;
+        left: 220px;
+        top: 350px;
+    }
+
+    .inspection-img .guarante img {
+        width: 180px;
+    }
+
+    .inspection-list {
+        padding-left: 0px;
+    }
 
     .margin-top {
         margin-top: 84px;
@@ -2104,6 +2142,16 @@
 
 @media (max-width: 428px) {
 
+    .inspection-img .guarante img {
+        width: 160px;
+    }
+
+    .inspection-img .guarante {
+        right: 0;
+        left: 190px;
+        top: 370px;
+    }
+
     .inspection-section h3 {
         font-size: 26px;
         line-height: 36px;
@@ -2347,6 +2395,10 @@
     
 }
 
-@media (max-width: 340px) {
-    
+@media (max-width: 360px) {
+    .inspection-img .guarante {
+        right: 0;
+        left: 160px;
+        top: 370px;
+    }
 }

@@ -480,6 +480,11 @@ a {
     text-align: center;
     position: absolute;
     bottom: 0;
+    transition: all .4s;
+}
+
+.career-section .career-content .apply-now:hover {
+    background-color: #2D3970;
 }
 
 

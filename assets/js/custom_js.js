@@ -1,3 +1,5 @@
+
+
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year;
@@ -58,6 +60,7 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 40,
     },
     1599: {
+      slidesPerView: 3,
       spaceBetween: 50
     }
   }
@@ -116,3 +119,6 @@ var swiper = new Swiper(".mySlider", {
     }
   }
 });
+
+
+AOS.init();

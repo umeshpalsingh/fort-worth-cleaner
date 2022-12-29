@@ -368,8 +368,14 @@ a {
     display: flex;
 }
 
-.social-links ul li {
+.footer .footer-box .footer-wrapper .wrapper-box .social-links ul li {
+    margin-bottom: 0px;
     margin-right: 8px;
+    width: 30px;
+}
+
+.fa-facebook:hover, .fa-instagram:hover {
+    color: #B91E31;
 }
 
 .footer-end {

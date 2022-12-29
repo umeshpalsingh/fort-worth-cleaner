@@ -28,15 +28,11 @@
     }
 }
 
-
 @media (max-width: 1860px) {
     .van_image_slider {
         max-width: 980px;
         clip-path: polygon(15% 0%, 100% 0, 100% 100%, 9% 100%, 0 82%);
     }
-    /* .mainconentbottom {
-        left: 0px;
-    } */
     .mainconentbottom {
         bottom: 0px;
         left: 65px;
@@ -48,7 +44,6 @@
         max-width: 920px;
     }
  }
-
 
  @media (max-width: 1699px) {
     .maincontent h1 {
@@ -70,7 +65,7 @@
         padding-left: 30px;
     }
 
-        .service-section .service-wrapper .service-list {
+    .service-section .service-wrapper .service-list {
         padding-left: 35px;
     } 
   }
@@ -115,7 +110,6 @@
         max-width: 999px;
     }
 }
-
 
 @media (max-width: 1599px) {
 
@@ -297,10 +291,12 @@
         font-size: 38px;
         line-height: 36px;
     }
+
     .rating ul li {
         margin-right: 2px;
     }
-     .van_image_slider {
+
+    .van_image_slider {
         max-width: 790px;
     }   
     .maincontent h1 {
@@ -352,9 +348,7 @@
         line-height: 64px;
     }
 
-
 }
-
 
 @media (max-width: 1499px) {
 
@@ -382,11 +376,7 @@
         max-width: 750px;
     }
 
-    
-
-
- }
-
+}
 
 @media (max-width: 1428px) {
     .about-section p {
@@ -781,7 +771,7 @@
         padding: 30px 0 0;
      }
 
-     .service-section .service-wrapper .service-box {
+    .service-section .service-wrapper .service-box {
         max-width: 700px;
         padding-top: 165px;
         padding-left: 155px;
@@ -811,10 +801,11 @@
         line-height: 40px;
     }
 
-        .service-section .service-wrapper .service-list ol li {
-            font-size: 24px;
-            line-height: 38px;
-        }
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
     .maincontent h1 {
         font-size: 38px;
         line-height: 48px;
@@ -1475,7 +1466,6 @@
         width: 100%;
         text-align: center;
         margin-bottom: 20px;
-        
     }
 
     .inspection-list {
@@ -1699,7 +1689,6 @@
         max-width: 100%;
     }
 
-
     .banner-section .banner-heading {
         font-size: 40px;
         line-height: 48px;
@@ -1718,18 +1707,18 @@
         height: 460px;
     }
 
-       .service-section .service-wrapper .service-list .book-btn {
+    .service-section .service-wrapper .service-list .book-btn {
         margin-top: 15px;
         max-width: 200px;
     }
 
-       .service-section .service-wrapper .service-box {
+    .service-section .service-wrapper .service-box {
         padding-left: 60px;
         padding-top: 130px;
         height: 350px;
     }
 
-        .service-box h2 {
+    .service-box h2 {
         font-size: 38px;
         line-height: 40px;
     }
@@ -1775,6 +1764,7 @@
 }
 
 @media (max-width: 625px) {
+
     .about-flex {
         flex-wrap: wrap;
     }
@@ -1977,59 +1967,59 @@
         height: 330px;
     }
     
-        .service-section .service-wrapper .service-list {
-            padding-left: 20px;
-        }
+    .service-section .service-wrapper .service-list {
+        padding-left: 20px;
+    }
     
-        .van_image h1 {
-            font-size: 32px;
-            line-height: 42px;
-        }
+    .van_image h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
     
-        .maincontent h1 {
-            position: relative;
-            bottom: 20px;
-            font-size: 40px;
-            line-height: 54px;
-        }
+    .maincontent h1 {
+        position: relative;
+        bottom: 20px;
+        font-size: 40px;
+        line-height: 54px;
+    }
     
-        .mainform {
-            padding-top: 0;
-        }
+    .mainform {
+        padding-top: 0;
+    }
     
-        .mainform form input[type="email"] {
-            max-width: 260px;
-        }
+    .mainform form input[type="email"] {
+        max-width: 260px;
+    }
     
-        .mainconentbottom {
-            height: 58px;
-        }
+    .mainconentbottom {
+        height: 58px;
+    }
 
-        .mainconentbottom .leftconet p {
-            font-size: 14px;
-        }
+    .mainconentbottom .leftconet p {
+        font-size: 14px;
+    }
 
-        .rating ul li img {
-            width: 16px;
-        }
+    .rating ul li img {
+        width: 16px;
+    }
     
-        .rating ul li img {
-            width: 20px;
-        }
+    .rating ul li img {
+        width: 20px;
+    }
 
-        .rating span {
-            font-size: 14px;
-            line-height: 20px;
-        }
+    .rating span {
+        font-size: 14px;
+        line-height: 20px;
+    }
     
-        .rating span {
-            font-size: 18px;
-            line-height: 22px;
-        }
+    .rating span {
+        font-size: 18px;
+        line-height: 22px;
+    }
 
-        .service-section .service-wrapper .service-box {
-            height: 300px;
-        }
+    .service-section .service-wrapper .service-box {
+        height: 300px;
+    }
 }
 
 @media (max-width: 525px) {
@@ -2079,65 +2069,67 @@
     }
 
     .mainform form input[type="submit"] {
-    height: 36px;
-    max-width: 100px;
-    width: 100%;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 36px;
-    padding: 0;
-}
+        height: 36px;
+        max-width: 100px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        padding: 0;
+    }
 
-.mainform {
-    padding-top: 0;
-    margin-top: 35px;
-    position: relative;
-    bottom: 10px;
-}
+    .mainform {
+        padding-top: 0;
+        margin-top: 35px;
+        position: relative;
+        bottom: 10px;
+    }
 
-.mainform form input[type="email"] {
-    max-width: 200px;
-}
+    .mainform form input[type="email"] {
+        max-width: 200px;
+    }
 
-.mainconentbottom {
-    padding-left: 0px;
-}
- .mainconentbottom .leftconet h1 {
-    font-size: 16px;
-    line-height: 26px;
- }
+    .mainconentbottom {
+        padding-left: 0px;
+    }
 
- .mainconentbottom .leftconet p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-}
+    .mainconentbottom .leftconet h1 {
+        font-size: 16px;
+        line-height: 26px;
+    }
 
-.rating ul li img {
-    width: 18px;
-}
+    .mainconentbottom .leftconet p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 
-.rating span {
-    font-size: 14px;
-    line-height: 20px;
-}
+    .rating ul li img {
+        width: 18px;
+    }
 
-.rating {
-    padding-left: 15px;
-}
+    .rating span {
+        font-size: 14px;
+        line-height: 20px;
+    }
 
-.rating ul {
-    gap: 7px;
-}
+    .rating {
+        padding-left: 15px;
+    }
 
-.mainconentbottom {
-    height: 60px;
-    left: 0px;
-}
+    .rating ul {
+        gap: 7px;
+    }
 
-.mainform, .maincontent h1 {
-    padding-left: 0px;
-}
+    .mainconentbottom {
+        height: 60px;
+        left: 0px;
+    }
+
+    .mainform, .maincontent h1 {
+        padding-left: 0px;
+    }
+
 }
 
 @media (max-width: 428px) {
@@ -2270,53 +2262,53 @@
         max-width: 180px;
     }
     
-            .service-section .service-wrapper .service-box {
-                padding-left: 30px;
-            }
+    .service-section .service-wrapper .service-box {
+        padding-left: 30px;
+    }
     
-        .service-section .service-wrapper .service-list ol li {
-            font-size: 18px;
-            line-height: 30px;
-        }
+    .service-section .service-wrapper .service-list ol li {
+        font-size: 18px;
+        line-height: 30px;
+    }
     
-        .van_image_slider {
-            height: 260px;
-        }
+    .van_image_slider {
+        height: 260px;
+    }
     
-        .mainform form input[type="email"] {
-            max-width: 170px;
-        }
+    .mainform form input[type="email"] {
+        max-width: 170px;
+    }
     
-        .mainconentbottom .leftconet p {
-            font-size: 12px;
-        }
+    .mainconentbottom .leftconet p {
+        font-size: 12px;
+    }
     
-        .rating ul li img {
-            width: 16px;
-        }
+    .rating ul li img {
+        width: 16px;
+    }
     
-        .rating span {
-            font-size: 15px;
-            line-height: 20px;
-        }
+    .rating span {
+        font-size: 15px;
+        line-height: 20px;
+    }
     
-        .mainconentbottom {
-            height: 50px;
-        }
+    .mainconentbottom {
+        height: 50px;
+    }
     
-        .van_image h1 {
+    .van_image h1 {
         font-size: 28px;
         line-height: 34px;
-        }
+    }
 
-        .mainform {
-            margin-top: 25px;
-        }
+    .mainform {
+        margin-top: 25px;
+    }
     
-        .mainconentbottom .leftconet h1 {
-            font-size: 16px;
-            line-height: 22px;
-        }
+    .mainconentbottom .leftconet h1 {
+        font-size: 16px;
+        line-height: 22px;
+    }
 
     .service-section .service-wrapper .service-box h2 {
         font-size: 35px;
@@ -2324,14 +2316,14 @@
         max-width: 320px;
     }
 
-        .maincontent {
-            padding-left: 40px;
-        }           
+    .maincontent {
+        padding-left: 40px;
+    }           
 
-        .maincontent h1 {
-            font-size: 28px;
-            line-height: 40px;
-        }
+    .maincontent h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
 }
 
 @media (max-width: 375px) {

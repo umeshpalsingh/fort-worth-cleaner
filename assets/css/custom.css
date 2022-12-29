@@ -923,7 +923,7 @@ a {
 
 .pickup-section .delivery-form .form-box .input-box input:focus, .address-box input:focus, .pickup-section .form-2 .form-2-box .radio-box .other-option input:focus {
     border-color: #2D3970;
-    box-shadow: 0 0 0 0.15rem rgba(45, 57, 112, .2);
+    box-shadow: 0 0 0 0.15rem rgba(45, 57, 112, .2), 0 2px 5px rgb(0 0 0 / 10%) inset;
     transition: all .2s;
 }
 

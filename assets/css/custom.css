@@ -597,6 +597,7 @@ a {
     cursor: pointer;
     border: 1px solid #2D3970;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    transform: scale(1.01) !important;
 }
 
 .testimonial-section .testimonial-card:hover h3 {
@@ -680,6 +681,7 @@ a {
 
 .swiper-pagination-bullet-active {
     background: #2D3970 !important;
+    border: 1px solid #2D3970 !important;
 }
 
 
@@ -811,6 +813,13 @@ a {
 
 .pickup-banner-box {
     position: relative;
+    max-width: 45%;
+    width: 100%;
+}
+
+.pickup-img-box {
+    max-width: 55%;
+    width: 100%;
 }
 
 .pickup-heading {
@@ -920,7 +929,7 @@ a {
 
 .pickup-section .delivery-form .address-box input {
     width: 100%;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
 
 .pickup-section .form-2 {
@@ -1015,6 +1024,15 @@ a {
     cursor: pointer;
 }
 
+
+.fort-container .award img {
+    animation-name: awardanimate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    transition: all 1s;
+}
+
+
 @keyframes showImage {
     0% {
         opacity: 0.5;
@@ -1022,6 +1040,18 @@ a {
     }
     100% {
         opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes awardanimate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.07);
+    }
+    100% {
         transform: scale(1);
     }
 }

@@ -12,22 +12,13 @@
         width: 100%;
         height: 100%;
     }
-
     .pickup-banner-box {
-        width: 50%;
+        max-width: 50%;
+        width: 100%;
     }
-
     .pickup-banner-box img {
+        max-width: 100%;
         width: 100%;
-    }
-
-    .pickup-img-box {
-        width: 50%;
-    }
-
-    .pickup-img-box img {
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -1514,8 +1505,13 @@
         flex-wrap: wrap;
     }
 
-    .pickup-banner-box, .pickup-banner-box img {
+    .pickup-banner-box, .pickup-banner-box img, .pickup-img-box {
+        max-width: 100%;
         width: 100%;
+    }
+
+    .pickup-img-box iframe {
+        height: 500px;
     }
 
     .pickup-heading {
@@ -1580,6 +1576,10 @@
 }
 
 @media (max-width: 767px) {
+
+    .pickup-img-box iframe {
+        height: 400px;
+    }
 
     .mainconentbottom {
         height: 80px;
@@ -2141,6 +2141,10 @@
 }
 
 @media (max-width: 428px) {
+
+    .pickup-img-box iframe {
+        height: 350px;
+    }
 
     .inspection-img .guarante img {
         width: 160px;

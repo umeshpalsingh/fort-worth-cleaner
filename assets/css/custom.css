@@ -176,6 +176,12 @@ a {
     height: 32px;
 }
 
+.modal_form_wrapper input:focus {
+    outline: 2px solid #B91E31;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%) inset;
+    transition: all .2s;
+}
+
 .select-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -227,6 +233,11 @@ a {
     outline: none;
     color: #FFFFFF;
     margin: 47px auto 0;
+    transition: all .4s;
+}
+
+.modal_form .submit-btn:hover {
+    background-color: #2D3970;
 }
 
 
@@ -328,6 +339,8 @@ a {
 
 .footer .footer-box .footer-wrapper .box-3 .footer-form input:focus {
     border: 1px solid rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%) inset;
+    transition: all .2s;
 }
 
 .footer .footer-box .footer-wrapper .box-3 .footer-form button {

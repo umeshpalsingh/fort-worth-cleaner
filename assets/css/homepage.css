@@ -272,6 +272,7 @@
         animation-duration: 2s;
         transition: all .2s;
         overflow: hidden;
+        transition-timing-function: linear;
     }
 
     .hh {

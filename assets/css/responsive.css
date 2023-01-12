@@ -1288,6 +1288,35 @@
 
 @media (max-width: 991px) {
 
+
+    /* account page css start */
+    .tab-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab {
+        width: 100%;
+    }
+
+    #deliveryDetail {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    #userDetail {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .userbox {
+        margin: 20px auto;
+    }
+
+    /* account page css end */
+
     .inspection-img .guarante img {
         width: 220px;
     }

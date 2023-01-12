@@ -1042,7 +1042,6 @@ a {
     cursor: pointer;
 }
 
-
 .fort-container .award img {
     animation-name: awardanimate;
     animation-duration: 3s;
@@ -1050,6 +1049,79 @@ a {
     transition: all 1s;
 }
 
+/* Signup page Modal CSS Start */
+.login-modal-box {
+    padding: 40px 30px;
+}
+
+.login-btn, .register-btn {
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #2D3970;
+    color: #FFFFFF;
+    border: none;
+}
+
+.login-btn.active,.register-btn.active {
+    background-color: #B91E31;
+}
+
+.signup-section {
+    padding: 50px 10px;
+}
+
+.login-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-top img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.loginForm {
+
+}
+
+.input-mg {
+    margin-bottom: 30px;
+}
+
+.remember-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.form-input {
+    background-color: #fff;
+    color: #777;
+    padding: 10px 20px;
+}
+.form-input:focus {
+    background-color: #e9ecef;
+    border-color: #2D3970;
+    box-shadow: 0 0 0 0.1rem rgb(45 57 112 / 10%), 0 2px 5px rgb(0 0 0 / 5%) inset;
+    transition: all .2s;
+}
+
+.login-submit {
+    background-color: #2D3970;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+.login-submit:hover {
+    background-color: #B91E31;
+}
+
+/* Signup page Modal CSS End */
 
 @keyframes showImage {
     0% {

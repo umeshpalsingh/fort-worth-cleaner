@@ -55,7 +55,7 @@
             </li>
           </ul>
           <div>
-            <a class="sign-up" href="pickup.html">Sign Up</a>
+            <a class="sign-up" href="signup.html">Sign Up</a>
           </div>
         </div>
       </div>
@@ -92,15 +92,15 @@
           <div class="form-box">
             <div class="input-box">
               <label for="">First Name</label>
-              <input type="text" required>
+              <input type="text" required  name="contact_method">
             </div>
             <div class="input-box">
               <label for="">Last Name</label>
-              <input type="text" required>
+              <input type="text" required  name="contact_method">
             </div>
             <div class="input-box">
               <label for="">Email</label>
-              <input type="email" required>
+              <input type="email" required  name="contact_method">
             </div>
             <div class="input-box">
               <label for="">Confirm Email</label>
@@ -210,7 +210,10 @@
                 <label for="extra_heavy1">Extra Heavy</label>
               </div>
               <div class="other-option">
-                <input type="text" placeholder="Other" value="Other">
+                <input type="radio" id="other1" name="starch">
+                <label for="other1">
+                  <input type="text" placeholder="Other" value="Other">
+                </label>
               </div>
             </div>
           </div>
@@ -238,7 +241,10 @@
                 <label for="extra_heavy3">Extra Heavy</label>
               </div>
               <div class="other-option">
-                <input type="text" placeholder="Other" value="Other">
+                <input type="radio" id="other2" name="pants">
+                <label for="other2">
+                  <input type="text" placeholder="Other" value="Other">
+                </label>
               </div>
             </div>
           </div>

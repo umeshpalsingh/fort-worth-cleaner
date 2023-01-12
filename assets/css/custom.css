@@ -1051,6 +1051,12 @@ a {
 
 /* Signup page Modal CSS Start */
 
+
+.signup-section {
+    display: flex;
+    align-items: center;
+}
+
 .login-box {
     max-width: 600px;
     width: 100%;
@@ -1064,10 +1070,6 @@ a {
 .form-image img {
     width: 100%;
 }
-.login-modal-box {
-    padding: 40px 30px;
-}
-
 
 .login-btn, .register-btn {
     width: 100%;
@@ -1080,22 +1082,6 @@ a {
 .login-btn.active,.register-btn.active {
     background-color: #B91E31;
 }
-
-.signup-section {
-    display: flex;
-    align-items: center;
-}
-
-.login-top {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.login-top img {
-    max-width: 200px;
-    width: 100%;
-}
-
 
 .input-mg {
     margin-bottom: 40px;
@@ -1133,6 +1119,19 @@ a {
 
 .login-submit:hover {
     background-color: #B91E31;
+}
+
+.forgot-pass {
+    color: #2D3970;
+}
+
+.forgot-pass:hover {
+    color: #B91E31;
+}
+
+.login-details {
+    font-size: 28px;
+    font-weight: 500;
 }
 
 /* Signup page Modal CSS End */

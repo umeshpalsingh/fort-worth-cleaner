@@ -416,10 +416,6 @@
 
 @media (max-width: 1399px) {
 
-    .form-image {
-        display: none;
-    }
-
     .inspection-img .guarante {
         left: 210px;
         top: 290px;
@@ -872,6 +868,10 @@
 }
 
 @media (max-width: 1299px) {
+
+    .form-image {
+        display: none;
+    }
 
     .van_image .van-img {
         max-width: 670px;
@@ -2331,6 +2331,11 @@
 }
 
 @media (max-width: 375px) {
+
+    .login-details {
+        font-size: 24px;
+        line-height: 32px;
+    }
 
     .fort-banner {
         min-height: 500px;

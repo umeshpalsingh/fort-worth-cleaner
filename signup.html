@@ -23,101 +23,154 @@
 </head>
 <body>
 
-    <div class="signup-section"> 
-        <div class="container">
-            <div class="login-box">
-                <div class="login-top">
-                    <a href="index.html">
-                        <img src="assets/img/fort worth logo 1.svg" alt="">
-                    </a>
-                </div>
-                <form action="">
-                    <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
-                        <li class="w-100" role="presentation">
-                          <button class="login-btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Login</button>
-                        </li>
-                        <!-- <li class="w-50" role="presentation">
-                          <button class="register-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-register" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Register</button>
-                        </li> -->
-                      </ul>
-                      <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                            <div class="loginForm">
-                                <form action="">
-                                    <!-- <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label> -->
-                                    <div class="input-group input-mg">
-                                        <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
-                                        <input type="text" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="Username / Email" required>
-                                    </div>
-                                    <!-- <label class="visually-hidden" for="specificSizeInputGroupUsername">Password</label> -->
-                                    <div class="input-group input-mg">
-                                        <div class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></div>
-                                        <input type="password" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="Password" required>
-                                    </div>
-                                    <div class="remember-box">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <label class="form-check-label" for="gridCheck">
-                                              Remember me
-                                            </label>
-                                          </div>
-                                        <a href="">Forgot Password?</a>
-                                    </div>
-                                    <button class="login-submit" type="submit">LOG IN</button>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                            <div class="registerForm">
-                                <form action="" class="row">
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
-                                        <div class="input-group input-mg">
-                                            <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
-                                            <input type="text" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="First Name" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                        <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
-                                        <div class="input-group input-mg">
-                                            <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
-                                            <input type="text" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="Last Name" required>
-                                        </div>
-                                    </div>  
-                                    <label class="visually-hidden" for="specificSizeInputGroupUsername">Email</label>
-                                    <div class="input-group input-mg">
-                                        <div class="input-group-text">@</div>
-                                        <input type="email" class="form-control form-input" placeholder="Password" required>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                        <div class="input-group input-mg">
-                                            <div class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></div>
-                                            <input type="password" class="form-control form-input" placeholder="Password" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                        <div class="input-group input-mg">
-                                            <div class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></div>
-                                            <input type="password" class="form-control form-input" placeholder="Confirm Password" required>
-                                        </div>
-                                    </div>  
-                                    <div class="remember-box">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <label class="form-check-label" for="gridCheck">
-                                              Remember me
-                                            </label>
-                                          </div>
-                                        <a href="">Forgot Password?</a>
-                                    </div>
-                                    <button class="login-submit" type="submit">SIGN UP</button>
-                                </form>
-                            </div>
-                        </div> -->
-                      </div>
-                </form>
-            </div>
+      <!-- Navigation Menu -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-fluid" src="assets/img/fort worth logo 1.svg" alt="Fort Worth Cleaner">
+          </a>
+          <a class="call-link" href="tel:(817) 236-3388"> <img src="assets/img/call-icon.svg" alt="call:">(817)
+            236-3388</a>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="pickup.html">Pickup and Delivery</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="career.html">Careers</a>
+            </li>
+            <li>
+              <a href="testimonial.html">Testimonials</a>
+            </li>
+          </ul>
+          <div>
+            <a class="sign-up" href="signup.html">Sign
+              Up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="margin-top"></div>
+
+    <div class="signup-section"> 
+        <div class="form-image">
+            <img src="assets/img/loginform1.jpg" alt="">
+        </div>
+        <div class="login-box">
+            <form action="">
+                <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+                    <li class="w-100" role="presentation">
+                      <button class="login-btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Login</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="loginForm">
+                            <form action="">
+                                <div class="input-group input-mg">
+                                    <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                    <input type="text" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="Username / Email" required>
+                                </div>
+                                <div class="input-group input-mg">
+                                    <div class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></div>
+                                    <input type="password" class="form-control form-input" id="specificSizeInputGroupUsername" placeholder="Password" required>
+                                </div>
+                                <div class="remember-box">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Remember me
+                                        </label>
+                                      </div>
+                                    <a href="">Forgot Password?</a>
+                                </div>
+                                <button class="login-submit" type="submit">LOG IN</button>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+            </form>
+        </div>       
     </div>
+
+    <div class="pickup">
+        <div class="container">
+          <p>We pick up, clean, and deliver your dry cleaning and laundry to your door Step</p>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-box">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img class="img-fluid" src="assets/img/fort worth logo 2.png" alt="logo">
+          </a>
+        </div>
+        <div class="footer-wrapper">
+          <div class="wrapper-box box-1">
+            <h5>Quick Links</h5>
+            <ul class="page-links">
+              <li><a href="pickup.html">Pickup and Delivery</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="testimonial.html">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="wrapper-box box-2">
+            <h5>Contact Us</h5>
+            <ul>
+              <li>
+                <a href="javascript:void(0)">
+                  <img class="pe-1" src="assets/img/mail.svg" alt=""> 7325 Boat Club Rd, Fort
+                    Worth, TX 76179
+                </a>
+              </li>
+              <li><a href="tel:(817) 236-3388"><img class="pe-1" src="assets/img/call-2.svg" alt=""> (817) 236-3388</a>
+              </li>
+            </ul>
+          </div>
+          <div class="wrapper-box box-3">
+            <h5>Order Here</h5>
+            <form>
+              <label class="footer-label" for="">Enter Your Pickup Location</label>
+              <div class="footer-form">
+                <input type="text" placeholder="Enter Your Location">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+            <div class="social-links">
+              <span class="follow">Follow us</span>
+              <ul>
+                <li><a href=""><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section class="footer-end">
+    <div class="container">
+      <p>All Rights Reserved © <span id="year"></span> fort worth family cleaners. Designed and Developed by <a
+          class="text-white" target="_blank" href="https://ogrelogic.com/">Ogrelogic</a>.</p>
+    </div>
+  </section>
 </body>
 </html>

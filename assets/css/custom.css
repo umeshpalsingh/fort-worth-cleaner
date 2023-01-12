@@ -1050,9 +1050,24 @@ a {
 }
 
 /* Signup page Modal CSS Start */
+
+.login-box {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.form-image {
+    width: 50%;
+}
+.form-image img {
+    width: 100%;
+}
 .login-modal-box {
     padding: 40px 30px;
 }
+
 
 .login-btn, .register-btn {
     width: 100%;
@@ -1067,7 +1082,8 @@ a {
 }
 
 .signup-section {
-    padding: 50px 10px;
+    display: flex;
+    align-items: center;
 }
 
 .login-top {
@@ -1080,12 +1096,9 @@ a {
     width: 100%;
 }
 
-.loginForm {
-
-}
 
 .input-mg {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .remember-box {
@@ -1113,6 +1126,7 @@ a {
     font-weight: 600;
     font-size: 15px;
     height: 40px;
+    max-width: 150px;
     width: 100%;
     border: none;
 }

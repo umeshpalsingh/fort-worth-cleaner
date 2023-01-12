@@ -416,6 +416,10 @@
 
 @media (max-width: 1399px) {
 
+    .form-image {
+        display: none;
+    }
+
     .inspection-img .guarante {
         left: 210px;
         top: 290px;

@@ -113,6 +113,27 @@
 
 @media (max-width: 1599px) {
 
+
+    /*--------account page----------*/
+    .account-page {
+        padding: 80px;
+    }
+
+    .username-detail h1, .useremail-detail h1 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .username-detail p, .useremail-detail p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .username-detail, .useremail-detail {
+        max-width: 420px;
+    }
+
+    /*--------account page----------*/
+
     .van_image .van-img {
         max-width: 800px;
         position: relative;
@@ -415,6 +436,21 @@
 }
 
 @media (max-width: 1399px) {
+
+    /*--------account page----------*/
+    .account-page {
+        padding: 60px;
+    }
+
+    .account-section {
+        padding: 50px 20px;
+    }
+
+    .username-detail, .useremail-detail {
+        max-width: 360px;
+    }
+
+    /*--------account page----------*/
 
     .inspection-img .guarante {
         left: 210px;
@@ -923,11 +959,18 @@
 
 @media (max-width: 1199px) {
 
+    /*--------account page----------*/
+    .username-detail, .useremail-detail {
+        max-width: 300px;
+    }
+    /*--------account page----------*/
+
     .van_image .van-img {
         position: relative;
         left: 0px;
     }
 
+    /*--------career page----------*/
     .career-section .career-content h5 {
         margin-bottom: 10px;
         font-size: 32px;
@@ -938,6 +981,7 @@
         font-size: 16px;
         line-height: 30px;
     }
+    /*--------career page----------*/
 
     .fort-banner-section {
         padding: 30px 0 30px;
@@ -1290,9 +1334,21 @@
 
 
     /* account page css start */
+
+    .account-page {
+        padding: 30px;
+    }
+
+    #accountDetail {
+        width: 100%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+
     .tab-box {
         display: flex;
         flex-direction: column;
+        gap: 16px;
     }
 
     .tab {
@@ -1309,10 +1365,15 @@
     #userDetail {
         width: 100%;
         padding: 0px;
+        margin: 20px auto;
     }
 
     .userbox {
         margin: 20px auto;
+    }
+
+    .username-detail, .useremail-detail {
+        max-width: 100%;
     }
 
     /* account page css end */

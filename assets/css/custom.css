@@ -10,6 +10,11 @@
     padding: 0px;
 }
 
+::selection {
+    color: #fff;
+    background: #B91E31;
+}
+
 html {
     box-sizing: border-box;
 }

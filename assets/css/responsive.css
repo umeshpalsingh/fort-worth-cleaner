@@ -2422,6 +2422,10 @@
 
 @media (max-width: 375px) {
 
+    .account-page {
+        padding: 5px;
+    }
+
     .login-details {
         font-size: 24px;
         line-height: 32px;
